@@ -9,7 +9,7 @@ from llama_index.core import (
 from llama_index.core.embeddings import BaseEmbedding
 from llama_index.core.schema import NodeWithScore, Node
 from llama_index.core.retrievers import BaseRetriever as LlamaBaseRetriever
-from src.retrieval.base_retriever import BaseRetriever
+from rag.retrieval.base_retriever import BaseRetriever
 
 
 class VectorRetriever(BaseRetriever):

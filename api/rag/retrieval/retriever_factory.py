@@ -3,9 +3,9 @@ Factory class for creating different types of retrievers.
 """
 
 from llama_index.core.embeddings import BaseEmbedding
-from src.retrieval.base_retriever import BaseRetriever
-from src.retrieval.vector_retriever import VectorRetriever
-from src.retrieval.hybrid_retriever import HybridRetriever
+from rag.retrieval.base_retriever import BaseRetriever
+from rag.retrieval.vector_retriever import VectorRetriever
+from rag.retrieval.hybrid_retriever import HybridRetriever
 
 
 class RetrieverFactory:
