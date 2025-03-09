@@ -39,7 +39,7 @@ class MarkdownProcessor:
 
         return nodes
 
-    def parse_documents(self) -> List[Node]:
+    async def parse_documents(self) -> List[Node]:
         """
         Parse loaded documents into nodes using the markdown parser.
 
@@ -48,7 +48,7 @@ class MarkdownProcessor:
         """
         all_nodes = []
         for doc in self.documents:
-            nodes = self.md_parser.get_nodes_from_documents([doc])
+            nodes = await self.md_parser.aget_nodes_from_documents([doc])
             for node in nodes:
                 # Add document metadata to each node
                 if "document_name" in doc.metadata:

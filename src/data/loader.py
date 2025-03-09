@@ -20,7 +20,7 @@ class PDFLoader:
             use_vendor_multimodal_model=True,
         )
 
-    def load_document(self, file_path: str) -> List[Document]:
+    async def load_document(self, file_path: str) -> List[Document]:
         """
         Load a single PDF document.
 
@@ -32,13 +32,13 @@ class PDFLoader:
         """
 
         file_name = Path(file_path).name
-        documents = self.parser.load_data(file_path)
+        documents = await self.parser.aload_data(file_path)
         for page in documents:
             page.metadata["document_name"] = file_name
 
         return documents
 
-    def load_documents(
+    async def load_documents(
         self,
         document_paths: List[str],
     ) -> List[Document]:
@@ -55,6 +55,7 @@ class PDFLoader:
 
         documents = []
         for pdf_file in document_paths:
-            documents.extend(self.load_document(pdf_file))
+            new_docs = await self.load_document(pdf_file)
+            documents.extend(new_docs)
 
         return documents

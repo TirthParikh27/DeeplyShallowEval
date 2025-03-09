@@ -1,0 +1,1504 @@
+{
+    "examples": [
+        {
+            "query": "What is the duration of temporary cover provided for a replacement vehicle if you sell or give away your vehicle during the policy period?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Storage costs\n\nIf an incident we cover causes loss or damage to your vehicle and it\u2019s taken to a storage facility or holding yard.\n\nWe pay this benefit on top of your agreed value or market value.\n\n**Covered**\n\n- the reasonable costs to store your vehicle from when you lodge a claim with us until we assess your vehicle.\n\n**Conditions**\n\n- we must agree to pay the storage costs before you make any arrangements\n- you need to move your vehicle if we ask you to\n- we can move your vehicle if we need to.\n\n Temporary cover\n\nIf you sell or give away your vehicle and replace it with another one during the policy period, then we provide temporary cover under your policy for your replacement vehicle.\n\n**Covered**\n\n- temporary cover for your replacement vehicle on the same terms that are set out in your policy except for these changes:\n  - we only provide cover for 14 days from when you sold or gave away your vehicle\n  - we insure your replacement vehicle for its market value.\n\n**Conditions**\n\n- we cover your replacement vehicle permanently if:\n  - you ask us to cover it within the 14 day temporary cover period\n  - you give us full details for the vehicle\n  - we agree to insure it, and\n  - you pay us any additional premium."
+            ],
+            "reference_answer": "The duration of temporary cover provided for a replacement vehicle is 14 days from when you sold or gave away your vehicle.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What types of tyre damage are not covered under the NRMA car policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Types of loss or damage\n\nWe don\u2019t cover:\n\n- Tyre damage caused by road cuts, punctures, bursts or braking (except if there is loss or damage to other parts of your vehicle)\n- Mechanical, structural, electrical, hydraulic, or electronic breakdown or failure\n- Deterioration or wear and tear caused:\n  - Over time\n  - By using your vehicle\n  - By exposing your vehicle to the elements \u2013 for example, faded or damaged paint from exposure to sun, dirt and/or corrosive materials\n- Rust or any type of corrosion\n- Depreciation or loss of your vehicle\u2019s value \u2013 for example, if your vehicle is worth less after an incident\n- Consequential loss including any loss which results because you can\u2019t use your vehicle \u2013 unless it is specifically covered under this policy. This means we will not pay for direct or indirect financial or economic loss. For example, loss of use or enjoyment, loss of profits or depreciation\n- Compensation for distress, inconvenience or other non-financial loss (except if we cover it under \u2018Liability cover\u2019).\n\n# Other\n\nWe don\u2019t cover:\n\n- Any loss, damage or liability caused by, arising from, occasioned by or through or in consequence directly or indirectly of war, invasion, acts of foreign enemy, hostilities (whether war be declared or not), civil war, insurrection, rebellion, revolution or military or usurped power\n- Any loss, damage, liability, cost or expense directly or indirectly caused by, contributed to by, resulting from or arising out of or in connection with:\n  - An act of terrorism, regardless of any other cause or event contributing concurrently or in any other sequence to the loss, or\n  - Any action taken to control, prevent, suppress, retaliate against, or respond to an act of terrorism\n- Loss, damage, liability, claim, cost or expense directly or indirectly caused or contributed to by:\n  - Errors or omissions involving access to, processing of, use of or operation of any computer system or any unavailability or failure to access, process, use or operate any computer system, or\n  - Any unauthorised, malicious or criminal act (or any threat or hoax of this) involving access to, processing of, use of or operation of any computer system,\n\nprovided that this exclusion will not apply to physical loss or damage directly caused by an incident or event we cover you for under this policy except if caused by vandalism or a malicious act. For example, we will not cover you if your vehicle\u2019s GPS or security system cannot be used because of a cyber attack, but we will cover you for theft of your vehicle if it is stolen after your vehicle\u2019s security system is impacted by a cyber attack."
+            ],
+            "reference_answer": "The NRMA car policy does not cover tyre damage caused by road cuts, punctures, bursts, or braking, except if there is loss or damage to other parts of your vehicle.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What are the conditions under which NRMA does not provide cover for incidents involving the driver of the vehicle?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "General exclusions for all covers and benefits\n\nThe exclusions set out in this section apply to all covers and benefits under your policy.\n\n The incident\n\nWe don\u2019t cover incidents that take place outside:\n\n- Australia\n- the policy period.\n\n The driver\n\nWe don\u2019t provide cover if the driver of your vehicle:\n\n- was under the influence of any alcohol or drug\n- did not hold a current licence that was valid for the vehicle\n- was disqualified from driving or held a cancelled or suspended licence, or\n- was a learner driver who was not accompanied by a licensed driver that held a current licence that was valid for the vehicle.\n\nIf you were not the driver, we may still cover loss or damage to your vehicle if you can satisfy us that you had no reason to suspect that any of the exclusions shown applied to the driver. However, we won\u2019t provide liability cover for the driver and may try to recover money from them.\n\n Vehicle use\n\nWe don\u2019t provide cover if any of these applied when the incident happened:\n\n- the driver of your vehicle or a passenger was being wilful or reckless\n- your vehicle or anything it was towing:\n  - was in an unsafe condition that caused or contributed to the incident\n  - was being towed illegally\n  - exceeded the number of passengers or load limits recommended by your vehicle\u2019s manufacturer\n- your vehicle or substitute vehicle was being used:\n  - for illegal purposes or in an illegal manner that caused or contributed to the incident\n  - to illegally carry or store explosives, flammable or combustible substances and liquids\n  - in a race, rally, trial, test, contest, or any kind of motor sport, or\n  - in a track day, drive day or similar organised event\n- your vehicle was left with a commercial dealer so they could sell it for you."
+            ],
+            "reference_answer": "NRMA does not provide cover for incidents involving the driver of the vehicle under the following conditions:\n\n1. The driver was under the influence of any alcohol or drug.\n2. The driver did not hold a current licence that was valid for the vehicle.\n3. The driver was disqualified from driving or held a cancelled or suspended licence.\n4. The driver was a learner driver who was not accompanied by a licensed driver holding a current licence valid for the vehicle.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What coverage does NRMA provide for vehicle repairs in the event of a crash with an uninsured at-fault driver?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Table showing the coverage provided by NRMA for vehicle repairs in the event of a crash with an uninsured at-fault driver.,\nwith the following table title:\nCoverage Details,\nwith the following columns:\n- Coverage: None\n- Details: None\n- Page: None\n"
+            ],
+            "reference_answer": "The provided context does not include specific details about the coverage NRMA provides for vehicle repairs in the event of a crash with an uninsured at-fault driver. To obtain this information, you would need to refer to the actual NRMA car policy document or contact NRMA directly for clarification.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "Where can you find the definitions of words with special meaning in the NRMA car PDS policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Key details about your policy\n\n## Words with special meaning\n\nSome words in this PDS have special meaning \u2014 see \u2018Definitions\u2019 on pages 90 \u2013 92."
+            ],
+            "reference_answer": "You can find the definitions of words with special meaning in the NRMA car PDS policy on pages 90 to 92.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the cost of repairs when you reverse into your fence and damage your vehicle?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "**How we settle your claim**\n\nWe pay the repairer $4,500.\n\nYou don\u2019t need to pay your basic excess.\n\n----\n\n Claim 6: Excess greater than claim amount\n\nYou reverse into your fence and cause some damage to the back of your vehicle.\n\nWe assess the damage. The cost of the repairs is $500."
+            ],
+            "reference_answer": "The cost of repairs when you reverse into your fence and damage your vehicle is $500.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the title of the table summarizing the benefits provided by the insurance policy in the document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Summary of benefits provided by the insurance policy including coverage details and limits for various situations.,\nwith the following table title:\nInsurance Policy Benefits,\nwith the following columns:\n- Benefit: None\n- Details: None\n- Page: None\n"
+            ],
+            "reference_answer": "The title of the table summarizing the benefits provided by the insurance policy in the document is \"Insurance Policy Benefits.\"",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What section outlines how a claim is settled under the Third Party Property Damage Insurance?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Third Party Property Damage Insurance\n\nThird Party Property Damage Insurance is the basic Motor Insurance cover you can have for your vehicle. It's also available for motorcycles.\n\nThe table on the right summarises your cover. Full details about your cover are set out in this section.\n\n----\n\nIn this section, we outline what you\u2019re covered for under Third Party Property Damage Insurance and any specific limits, exclusions and conditions that apply to your cover.\n\nGeneral exclusions also apply. If you don\u2019t meet your responsibilities you may put your claim or cover at risk \u2013 see Section 7.\n\nHow we settle a claim is set out in Section 8."
+            ],
+            "reference_answer": "Section 8 outlines how a claim is settled under the Third Party Property Damage Insurance.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the agreed value of the vehicle in the claim settlement?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "How we settle your claim\n\nWe pay the towing company $300.\n\nWe pay you $12,680 as follows:\n\n- Agreed value: $14,200\n- Less basic excess: -$695\n- Less age excess: -$400\n- Less unused registration and CTP insurance premium: -$250\n- Less remaining unpaid monthly instalments: -$220\n\n**TOTAL: $12,635**\n\nYou arrange your registration and CTP insurance refund of $250.\n\nYour policy ends. We keep your vehicle."
+            ],
+            "reference_answer": "The agreed value of the vehicle in the claim settlement is $14,200.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What methods might NRMA use to notify you about changes to your car insurance policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Changes we can make\n\nWe may need to cancel your policy or give you written notice about your policy.\n\n We cancel your policy\n\nThere may be circumstances when we need to cancel your policy.\n\nWe will only do that if the law allows it.\n\nIf we cancel your policy, we will:\n\n- give you notice, if required, and\n- refund your unused premium after we deduct an amount that covers the period that you have been insured for.\n\nHowever, if you\u2019re currently paying your premium by monthly instalments, then you must pay us any unpaid monthly instalments that are due.\n\nYou authorise us to deduct those amounts by direct debit from the account or credit card you previously nominated for monthly instalment deductions. As we are only allowed to deduct the agreed amount you previously authorised, we may need to collect the total amount you owe us over a few months.\n\n We give you notice\n\nWe may need to give you notice about your policy. For example, to let you know that we won\u2019t be renewing your policy or that we\u2019re changing your policy conditions.\n\nWe will give you notice or contact you through one or more of these ways:\n\n- give you notice in person\n- contact you or give you written notice by fax or electronically \u2013 for example, see page 9 about \u2018Receiving your policy documents\u2019\n- post it to your last known mailing address\n- send you an electronic link so you can access the notice, or\n- contact you by telephone."
+            ],
+            "reference_answer": "NRMA might notify you about changes to your car insurance policy using the following methods:\n\n- In person\n- By fax or electronically\n- By posting it to your last known mailing address\n- By sending you an electronic link to access the notice\n- By contacting you by telephone.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What items are excluded from the definition of personal effects in the Allianz car policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Definitions\n\n**incident**  \nMeans a single event or series of related events.\n\n**market value**  \nMeans the cost to replace your vehicle with a vehicle of the same make, model, age and condition as your vehicle immediately prior to the loss or damage but excluding costs and charges for vehicle registration, compulsory third party insurance, stamp duty transfer, dealer warranty costs or transfer fees, or dealer delivery.\n\n**period of insurance**  \nMeans the period of time commencing on the effective date stated in the policy schedule and ending on the expiry date stated in the policy schedule unless ending earlier in accordance with the policy or law. Each renewal gives rise to a new contract and new period of insurance which is separate to any prior period of insurance.\n\n**personal effects**  \nMeans personal items which are designed to be worn or carried, but not:\n\n- cheques, money, credit cards or negotiable instruments;\n- firearms;\n- tools or items used in connection with a business or occupation; or\n- personal music devices, or portable global positioning systems (GPS).\n\n**policy schedule**  \nMeans a document of that name which shows your policy number, details of your cover, period of insurance, any options you have and any excess you must pay. It is part of your policy and should be read in conjunction with the other documents that form your policy.\n\n**recoverable**  \nMeans the right to recoup the expenses we incurred in providing cover for any accidental loss or damage to your vehicle or in covering any of your legal liability costs after a claimable event.\n\nA recoverable event does not include:\n\n- an at-fault claim;\n- a not at-fault claim where you are unable to provide us with the responsible party\u2019s name, address and vehicle registration number (or any other information that would reasonably allow us to identify the person so that we can exercise our rights of recovery);\n- any storm or naturally occurring event, or a collision with an animal; or\n- any other claim that we determine is not a recoverable event at the time of considering the claim.\n\n(Your no claim bonus may be affected and an excess may be required for any claimable event that is not recoverable by us, unless otherwise stated in your policy)."
+            ],
+            "reference_answer": "The items excluded from the definition of personal effects in the Allianz car policy are:\n\n- Cheques, money, credit cards, or negotiable instruments;\n- Firearms;\n- Tools or items used in connection with a business or occupation; or\n- Personal music devices, or portable global positioning systems (GPS).",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the definition of \"flood\" as outlined in the Allianz car policy document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Definitions\n\nIn the policy, some words have special meanings wherever they are used in this PDS or in other documents making up the policy. These words and their meanings are outlined below:\n\n**accidental, accident** means a sudden, violent, external, unusual and identifiable specific event which happens unexpectedly and is unintended by the insured person.\n\n**agreed value** means the amount which we agree to insure your vehicle up to as shown in your policy schedule.\n\n**bodily injury** means a bodily injury caused solely by an accident while an insured person is driving, riding in, getting into or out of, loading or unloading, or goods being carried by or falling from, your vehicle or a substitute vehicle which occurs independently of any other cause or condition and where both the accident and the bodily injury occur during the period of insurance.\n\n**declined driver** means a driver noted in the policy schedule as a declined driver who is not insured under your policy.\n\n**excess** means the relevant excess amount(s) shown in the policy schedule which you must pay as a contribution to your claim under your policy.\n\n**family** means:\n\n- your spouse, your partner or your de facto who lives with you;\n- your parents or parents-in-law who live with you;\n- your children and children of your spouse, partner or de facto (not being your children) who live with you;\n- your brothers or sisters who live with you.\n\n**flood** means the covering of normally dry land by water that has escaped or been released from the natural normal confines of any of the following:\n\na) a lake (whether or not it has been altered or modified);\n\nb) a river (whether or not it has been altered or modified);\n\nc) a creek (whether or not it has been altered or modified);\n\nd) another natural watercourse (whether or not it has been altered or modified);\n\ne) a reservoir;\n\nf) a canal;\n\ng) a dam."
+            ],
+            "reference_answer": "The definition of \"flood\" in the Allianz car policy document is the covering of normally dry land by water that has escaped or been released from the natural normal confines of any of the following:\n\na) a lake (whether or not it has been altered or modified);\n\nb) a river (whether or not it has been altered or modified);\n\nc) a creek (whether or not it has been altered or modified);\n\nd) another natural watercourse (whether or not it has been altered or modified);\n\ne) a reservoir;\n\nf) a canal;\n\ng) a dam.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum amount payable for all claims under the policy for liability for damage to other people's property, supplementary bodily injury cover, or legal costs arising from a single event or series of related events?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Additional cover for supplementary bodily injury (legal liability)\n\nWe will also cover you, a currently licensed driver driving the vehicle with your permission, or a passenger travelling in or getting into or out of the vehicle with your permission, for legal liability for death or bodily injury caused by or arising out of the use of your vehicle or a substitute vehicle during the period of insurance, if the vehicle is registered for use on a public road when the liability is incurred and arises, from one or more of the following events:\n\n- driving or being in charge of your vehicle or a substitute vehicle;\n- goods being carried by or falling from your vehicle or a substitute vehicle; or\n- loading or unloading your vehicle or a substitute vehicle.\n\nWe will not pay if the event or series of related events that gives rise to the legal liability or any part of it is insurable under any:\n\n- statutory or compulsory insurance policy or any statutory or compulsory insurance; or\n- compensation scheme or fund,\n\neven if the amount that may be recovered is nil.\n\nWe will not pay for legal liability to any:\n\n- person driving or in charge of your vehicle;\n- of your employees; or\n- member of your family.\n\nWe will not pay for legal liability in respect of any psychological or psychiatric injury (other than to the extent that it is directly caused by or arises from serious physical bodily injury of the person who suffers the psychological or psychiatric injury).\n\nWe may be entitled to reduce or refuse to pay a claim unless you or the person claiming under this section has notified us of a claim under this section as soon as reasonably practical after you or that person first becoming aware of an intention to make a claim against you or that person.\n\nWe will not pay for legal liability caused by or arising from an intentional act by you or any other person.\n\nWe will not pay any amount of exemplary, punitive or aggravated damages.\n\n Maximum amount payable\n\nThe maximum amount we will pay for all claims under the policy for liability for damage to other people\u2019s property, supplementary bodily injury cover, or legal costs arising from a single event or series of related events is $30,000,000."
+            ],
+            "reference_answer": "The maximum amount payable for all claims under the policy for liability for damage to other people's property, supplementary bodily injury cover, or legal costs arising from a single event or series of related events is $30,000,000.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What should you do before incurring out-of-pocket expenses to ensure you can claim those costs back on your NRMA car policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Change 2 \u2013 Amendment to \u2018Emergency transport and accommodation\u2019\n\n1. Your PDS is amended by replacing the dot point on page 18:\n\n- we must agree to the costs before they are incurred.\n\nwith the following:\n\n- you should seek our agreement before incurring any out-of-pocket expenses to ensure you will be able to claim those costs back on your policy. If you do not obtain our agreement first, we will only pay reasonable costs.\n\n2. Your PDS is amended by replacing the dot point on page 30:\n\n- we must agree to the costs before they are incurred.\n\nwith the following:\n\n- you should seek our agreement before incurring any out-of-pocket expenses to ensure you will be able to claim those costs back on your policy. If you do not obtain our agreement first, we will only pay the reasonable costs."
+            ],
+            "reference_answer": "You should seek NRMA's agreement before incurring any out-of-pocket expenses to ensure you can claim those costs back on your policy.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What sections are included in the Table of Contents of the Allianz car insurance policy document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "This table provides a detailed overview of the sections and page numbers related to Motor Insurance, Our agreement with you, and Comprehensive insurance in an insurance policy document.,\nwith the following table title:\nTable of Contents,\nwith the following columns:\n- Section: None\n- Page: None\n"
+            ],
+            "reference_answer": "The sections included in the Table of Contents of the Allianz car insurance policy document are related to Motor Insurance, Our agreement with you, and Comprehensive insurance.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What type of coverage is provided for loss or damage to your vehicle in the NRMA car insurance policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Your insurance cover\n\n Loss or damage to your vehicle"
+            ],
+            "reference_answer": "The NRMA car insurance policy provides coverage for loss or damage to your vehicle.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What happens if you fail to disclose or understate your entitlement to an input tax credit on your premium when registered for GST?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "If your sum insured/limit of liability is not sufficient to cover your loss, we will only pay the GST amount that relates to our settlement of your claim.\n\nWe will reduce the GST amount we pay for by the amount of any input tax credits to which you are or would be entitled.\n\n Payment as compensation\n\nWhere we make a payment under the policy as compensation instead of payment for a relevant acquisition, we will reduce the amount of the payment by the amount of any input tax credit that you would have been entitled to had the payment been applied to a relevant acquisition.\n\n Disclosure \u2013 Input tax credit entitlement\n\nIf you register, or are registered, for GST you are required to tell us your entitlement to an input tax credit on your premium. If you fail to disclose or understate your entitlement, you may be liable for GST on a claim we may pay. The policy does not cover you for this GST liability, or for any fine, penalty or charge for which you may be liable.\n\n Recovery against another party\n\nWe have the right to recover from any person, in your name, the amount of any claim paid under the policy and we have full discretion in the conduct, settlement or defence of any claim in your name. We will act reasonably having regard to your interests, and will keep you informed if you ask us. If we recover more than the amount we have paid to you or on your behalf, we will pay you the balance.\n\nThe amount of any excess you have paid will only be refunded when your claim is recoverable.\n\n Repairing your vehicle\n\nIf we choose the option of repairing your vehicle, we will decide (acting reasonably) the best way of repairing any damage that exists.\n\nIn order to be sure that you are covered under this policy you should always contact us for approval before you start any repairs on your vehicle, unless you have Comprehensive insurance and they are emergency repairs as detailed under the \u201cEmergency repairs\u201d benefit. If you do not, we will pay for expenses incurred up to the amount we would have authorised had you sought approval from us first.\n\n Choosing a repairer\n\nAllianz can assist you in selecting a suitable repairer to repair the damage to your vehicle. You also have the right to choose your own repairer. In both instances we will work closely with the repairer to strive to achieve the best repair outcome for you however we may require a second quotation from a repairer chosen by us. We will then choose (subject to any relevant policy limits and acting reasonably) to:\n\n- authorise the repairs at your repairer of choice;\n- pay you the reasonable cost of repairing your vehicle; or"
+            ],
+            "reference_answer": "If you fail to disclose or understate your entitlement to an input tax credit on your premium when registered for GST, you may be liable for GST on a claim that Allianz may pay. The policy does not cover you for this GST liability, or for any fine, penalty, or charge for which you may be liable.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What specific information is missing from the document \"nrma-car-pds-policy.pdf\"?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "NO_CONTENT_HERE"
+            ],
+            "reference_answer": "The document \"nrma-car-pds-policy.pdf\" does not contain any specific information as it is indicated by \"NO_CONTENT_HERE.\"",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum amount reimbursed for emergency repairs to a vehicle under the NRMA car policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Other benefits\n\nYour policy covers loss or damage that is caused by the use of your vehicle to someone else\u2019s property \u2014 see \u2018Liability cover\u2019 on pages 52 \u2013 54.\n\nWe may also provide other benefits that are set out in this section.\n\nYou can make a claim for other benefits when an incident we cover happens during the policy period and causes loss or damage to your vehicle and we agree to pay for that loss or damage.\n\nHowever, you can make a claim under some benefits in other situations. For example, under \u2018Keys, locks and barrels\u2019, we may pay the cost to replace your car keys if someone steals your bag and your car keys are inside it.\n\n## Baby capsules and child seats\n\nIf an incident we cover causes loss or damage to your vehicle and a baby capsule or child seat in your vehicle.\n\nWe pay this benefit on top of your agreed value or market value.\n\n**Covered**\n\n- up to $500 to replace each baby capsule or child seat that\u2019s in your vehicle.\n\n## Emergency repairs\n\nIf an incident we cover causes loss or damage to your vehicle and you arrange emergency repairs to your vehicle so you can get back on the road safely.\n\nFor example, someone crashes into the back of your car. To make your car safe to drive, you arrange for the rear brake light to be fixed straight away.\n\n**Covered**\n\n- we will reimburse you up to $800 in total for emergency repairs to your vehicle.\n\n**Not covered**\n\n- non-emergency repairs.\n\n**Conditions**\n\n- we will determine what is an emergency repair\n- the emergency repairs must be made to keep your vehicle secure or to get you back on the road safely\n- you must pay for the emergency repairs up front and provide us with the tax invoice, unless we agree otherwise\n- the emergency repairs must be directly related to the incident you are claiming for.\n\n----\n\n**Emergency repairs are repairs you arrange to make your vehicle secure or get you back on the road safely**"
+            ],
+            "reference_answer": "The maximum amount reimbursed for emergency repairs to a vehicle under the NRMA car policy is $800 in total.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum liability coverage amount detailed in the NRMA car PDS policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Table showing details of liability coverage up to $20 million,\nwith the following table title:\nLiability Coverage Details,\nwith the following columns:\n- Coverage: Type of coverage\n- Details: Coverage amount in dollars\n- Page: Page number\n"
+            ],
+            "reference_answer": "The maximum liability coverage amount detailed in the NRMA car PDS policy is $20 million.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum daily amount covered for a hire car after a theft or attempted theft?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Hire car after theft or attempted theft\n\nIf a theft or attempted theft we cover causes loss or damage to your vehicle and you need a hire car.\n\nWe pay this benefit on top of your market value.\n\n## Covered\n\n- Up to $75 a day for a hire car until whichever of these events happen first:\n  - your vehicle is recovered and repaired\n  - we pay your claim for a total loss, or\n  - you\u2019ve had the hire car for 21 days\n- Up to $2,000 in total for any excess and security bond payable under the hire car agreement because there is loss or damage to the hire car or it causes loss or damage.\n\n## Not covered\n\n- Running costs for the hire car (for example, petrol or tolls)\n- Any additional hire car costs (for example, any optional extras such as a GPS)\n- Loss or damage to the hire car\n- Liability which results from using the hire car\n- Any additional hire car costs if the repairs to your vehicle are unreasonably delayed by you or any repairer you appoint or engage.\n\n## Conditions\n\n- We will arrange a hire car for you. You must not arrange your own hire car under any circumstances unless you obtain our prior written consent by contacting us on 131 123. If you do, then we may decide not to pay for the hire car.\n- Your vehicle must be:\n  - not drivable\n  - unsafe to drive, or\n  - in for repairs.\n\n----\n\n**Third Party Fire & Theft Insurance**\n\nWe will arrange a hire car for you and will do our best to arrange a car that meets your needs."
+            ],
+            "reference_answer": "The maximum daily amount covered for a hire car after a theft or attempted theft is up to $75.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the waiting period for coverage of loss or damage caused by cyclones, floods, or bush fires when a new motor insurance policy is first taken out?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Our agreement with you\n\n Your insurance contract\n\nWhen you buy the type of motor insurance cover you need, we enter into a contract with you which is called the policy and is made up of:\n\n- your policy schedule;\n- this Product Disclosure Statement (PDS),\n- any applicable Supplementary PDS (SPDS); and\n- any other document we tell you forms part of the policy at or prior to the commencement of the policy or when required or permitted by law, which may vary or modify the above documents.\n\nThis document (together with any amendments, updates or endorsements that we give you in writing which may vary it when required or permitted by law) will also apply for any offer of renewal we make, unless we tell you otherwise or issue you with a new and updated PDS.\n\nIf there is more than one insured on the policy, then anything that any of the insureds says, does or omits to advise to us of applies to and affects the rights of all of the insureds.\n\nIf you require further information about this product, please contact your appointed Insurance Broker.\n\n Your waiting period for cyclone, flood and bush fires\n\nTo manage the risk of people taking out motor insurance on their uninsured vehicles when events such as cyclones, floods or bush fires are predicted, we do not provide cover (where the type of cover you have provides it) for any loss of or damage to your vehicle caused by these events during the first 72 hours after the policy is first taken out by you (it does not apply to renewals). However, you will be covered from the time you take out the policy for covered loss of or damage to your vehicle not caused by these events.\n\nThis waiting period does not apply when:\n\n- a new comprehensive policy is taken as a replacement of an existing comprehensive policy with no break in cover; or\n- the vehicle you are insuring was purchased at the time the policy commences."
+            ],
+            "reference_answer": "The waiting period for coverage of loss or damage caused by cyclones, floods, or bush fires when a new motor insurance policy is first taken out is 72 hours.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What type of parts may be used for windscreens, sunroofs, window glass, radiators, and air conditioning components regardless of the vehicle's age?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Parts used to repair your vehicle\n\nGenerally, we use the following parts to repair your vehicle. If your vehicle is:\n\n- under 3 years, we use genuine new parts (when reasonably available)\n- 3 years or older, we use:\n  - genuine new parts (when reasonably available), or\n  - quality non-mechanical reusable parts.\n\nRegardless of your vehicle\u2019s age, we may use non-genuine parts for windscreens, sunroofs, window glass, radiators and air conditioning components.\n\nWe only use quality non-mechanical reusable parts when it:\n\n- is consistent with the age and condition of your vehicle\n- does not affect the safety or the structural integrity of your vehicle\n- complies with your vehicle manufacturer\u2019s specifications and applicable Australian Design Rules\n- does not adversely affect the way your vehicle looks after it has been repaired\n- does not void or affect the warranty provided by your vehicle\u2019s manufacturer.\n\n Unrepaired damage\n\nIf your vehicle had any unrepaired damage before an incident, then you may need to contribute to the repair costs, however we will not proceed with these repairs until we have discussed this with you and sought your agreement. You need to do that when the unrepaired damage results in us having to repair more areas of your vehicle than:\n\n- were affected by the incident, or\n- we needed to replace.\n\nFor example, your bonnet is only partly damaged in a crash and can be repaired. The repairer notices that the bonnet has unrepaired hail damage. If there wasn\u2019t any hail damage, then we would only need to repair the damaged area of the bonnet. However, because of the unrepaired hail damage, we must replace the whole bonnet. So, we will discuss these repairs with you and seek your agreement to contribute to the cost.\n\n Undamaged areas\n\nWe don\u2019t repair undamaged areas of your vehicle to create a uniform appearance.\n\nIn the event of repairs, we will make a fair and reasonable attempt to match the repairs to undamaged areas, using the closest match available.\n\nIf you are not satisfied with the closest match, you are able to:\n\n- pay the extra cost of repairing undamaged areas to achieve a matching appearance; or\n- we will pay you what it would have cost us to repair the damaged area."
+            ],
+            "reference_answer": "Non-genuine parts may be used for windscreens, sunroofs, window glass, radiators, and air conditioning components regardless of the vehicle's age.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What benefits are included under Comprehensive Plus Insurance for emergency situations?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Table of contents\n\n## 1 Key details about your policy 8\n\n- **Our agreement with you** 9\n  - Your contract 9\n  - Receiving your policy documents 9\n  - Limits, exclusions and conditions 10\n  - Value that applies to your vehicle 10\n  - Your premium 11\n  - 21 day cooling-off period 13\n  - Assigning rights and appointing a representative 13\n  - Governing law and GST 13\n\n## 2 Comprehensive Plus Insurance 14\n\n- **Loss or damage to your vehicle** 16\n  - Any NRMA Partner Repairer 16\n\n- **Other benefits** 17\n  - Baby capsules and child seats 17\n  - Emergency repairs 17\n  - Emergency transport and accommodation 18\n  - Hire car after an incident 18\n  - Keys, locks and barrels 19\n  - New replacement vehicle 19\n  - Personal items 20\n  - Storage costs 21\n  - Taxi fares 21\n  - Temporary cover 22\n  - Tools of trade 22\n  - Towing 23\n  - Trailer or caravan damage 23\n  - Vehicle pick up and return 24\n  - Windscreen, sunroof and window glass damage 24\n\n- **Options you can add**\n  - Any Repairer 25\n\n## 3 Comprehensive Insurance 26\n\n- **Loss or damage to your vehicle** 28\n  - Loss or damage to your vehicle 28\n  - Any NRMA Partner Repairer 28\n\n- **Other benefits** 29\n  - Baby capsules and child seats 29\n  - Emergency repairs 29\n  - Emergency transport and accommodation 30\n  - Hire car after a not at fault collision or crash 31\n  - Hire car after theft or attempted theft 32\n  - Keys, locks and barrels 33\n  - New replacement vehicle 33\n  - Personal items 34\n  - Storage costs 35\n  - Temporary cover 35\n  - Tools of trade 36\n  - Towing 37\n  - Trailer or caravan damage 37\n  - Windscreen, sunroof and window glass damage 37\n\n- **Options you can add** 38\n  - Hire Car 38\n  - Windscreen 39\n  - Any Repairer 39\n\n## 4 Third Party Fire & Theft Insurance 40\n\n- **Loss or damage to your vehicle** 42\n  - Loss or damage to your vehicle 42\n  - Any NRMA Partner Repairer 42\n\n- **Other benefits** 43\n  - Crash with at fault driver 43\n  - Emergency repairs 44\n  - Emergency transport and accommodation 44\n  - Hire car after theft or attempted theft 45"
+            ],
+            "reference_answer": "Under Comprehensive Plus Insurance, the benefits included for emergency situations are:\n\n- Emergency repairs\n- Emergency transport and accommodation",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What incidents are covered under the NRMA car policy for loss or damage to your vehicle?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Loss or damage to your vehicle\n\nWe cover your vehicle when the incidents set out in this section happen.\n\n## Loss or damage to your vehicle\n\nIf an incident we cover happens during the policy period and causes loss or damage to your vehicle.\n\n### Covered\n\n- Up to the agreed value for your vehicle if any of these incidents cause loss or damage to it:\n\n  - accidental damage\n  - collision or crash\n  - earthquake\n  - explosion\n  - fire\n  - flood\n  - storm\n  - theft or attempted theft\n  - tsunami\n  - vandalism or a malicious act\n\n### Conditions\n\n- We decide whether to:\n  - repair your vehicle\n  - pay you the reasonable cost of repairs as determined by us, or\n  - pay you the agreed value for your vehicle.\n\nOur choice will have regard to the circumstances of your claim and consider any preference you may have.\n\nFor more details about how we settle your claim, see Section 8.\n\n## Any NRMA Partner Repairer\n\nYour policy automatically includes access to our extensive partner repairer network. We have partnered with trusted businesses to deliver quality, safe repairs and have you back on the road as soon as possible.\n\nHowever, you may choose your own repairer to fix your vehicle if you have added the \u2018Any Repairer\u2019 option \u2013 see page 25."
+            ],
+            "reference_answer": "The NRMA car policy covers loss or damage to your vehicle caused by the following incidents:\n\n- Accidental damage\n- Collision or crash\n- Earthquake\n- Explosion\n- Fire\n- Flood\n- Storm\n- Theft or attempted theft\n- Tsunami\n- Vandalism or a malicious act",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What page contains information about the arrangements for repair by NRMA Partner Repairer?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Table detailing coverage and details related to vehicle insurance, including coverage for loss or damage to the vehicle and arrangements for repair by NRMA Partner Repairer.,\nwith the following table title:\nVehicle Insurance Coverage Details,\nwith the following columns:\n- Coverage: Details of coverage provided\n- Details: Specific details of the coverage and arrangements\n- Page: Page number where the information is located\n"
+            ],
+            "reference_answer": "The information about the arrangements for repair by NRMA Partner Repairer is located on the page specified in the table from the document \"nrma-car-pds-policy.pdf.\" However, the specific page number is not provided in the context given.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How can you obtain a free copy of the NRMA Privacy Policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Privacy of your personal information\n\nWe value the privacy of personal information we collect about you.\n\nWe collect your personal information directly from you or through others including those listed in our Privacy Policy, such as, our related entities, agents and distributors.\n\n## How we use your personal information\n\nWe and the parties listed in our Privacy Policy will use your personal information for the purposes it was collected for. Those purposes usually include to provide you with assistance, a product or service you requested and to deal with claims.\n\nYour personal information may also be used for other purposes that are set out in our Privacy Policy. You may choose to not give us your personal information. However, not giving us your personal information may affect our ability to provide you with a product or service, including processing a claim.\n\n## Further information\n\nWe may disclose your personal information to:\n\n- our related entities\n- our service providers \u2014 which includes some service providers that may be based overseas, and\n- other parties as set out in our Privacy Policy.\n\nOur Privacy Policy provides more information about how we collect, from whom we collect and how we hold, use and disclose your personal information. Our Privacy Policy also provides information about how you can:\n\n- access your personal information\n- ask us to correct your personal information, and\n- complain about a breach of the privacy principles set out in the Privacy Act 1988 (Cth) and how we will deal with your complaint.\n\n----\n\nTo get a free copy of our Privacy Policy:\n\n| Visit          | Call   | Visit            |\n|----------------|--------|------------------|\n| nrma.com.au    | 132 132| a local branch   |\n\n----\n\n## Your consent\n\nYou agree to us collecting, holding, using and disclosing your personal information as set out in our Privacy Policy when you:\n\n- provide us with your personal information, and\n- apply for, use or renew any of our products or services."
+            ],
+            "reference_answer": "You can obtain a free copy of the NRMA Privacy Policy by visiting their website at nrma.com.au, calling them at 132 132, or visiting a local branch.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum liability coverage amount detailed in the NRMA car policy document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Table showing the details of liability coverage up to $20 million.,\nwith the following table title:\nLiability Coverage Details,\nwith the following columns:\n- Coverage: Details of liability coverage\n- Details: Up to $20 million\n"
+            ],
+            "reference_answer": "The maximum liability coverage amount detailed in the NRMA car policy document is up to $20 million.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum amount reimbursed for any excess or security bond paid under a rental or loan car agreement due to accidental loss or damage?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Rental or Loan Car Benefit\n\nWe will provide the rental or loan car or daily travel allowance benefit for a maximum of 30 days or until:\n\n- the repairs have been completed; or\n- we settle your claim by paying you the agreed value or market value or replace the vehicle after a total loss,\n\nwhichever happens first.\n\nWe will extend your rental car or daily travel allowance period to the extent that we caused or contributed to the delay in repairing your vehicle.\n\nAdditionally, as part of this benefit, we will reimburse you up to $3,000 in total for any excess or security bond you have to pay under your rental or loan car agreement because there is accidental loss of or damage to the rental or loan car or because it causes some loss or damage.\n\nWe will arrange a rental car for you. If you arrange your own rental car without our consent, we are not obliged to pay for the rental car you arranged.\n\nWe will not pay for:\n\n- the cost of fuel used while driving the rental or loan car; or\n- any accidental loss of or damage to the rental or loan car.\n\n Tools of Trade\n\nWhen the policy schedule shows that the \u201cTools of trade\u201d option applies and we accept a claim for accidental loss of (including theft) or accidental damage to your vehicle under the policy, we will also cover accidental loss of (including theft) or accidental damage to tools of trade, trade stock and materials.\n\nThis option only applies:\n\n- if the tools of trade, trade stock or materials are stolen via forcible and violent entry to your securely locked vehicle or tool box permanently fixed to your vehicle; or\n- if the tools of trade, trade stock or materials are damaged as a result of a motor vehicle collision.\n\nThe maximum we will pay is $3,000 for any one incident."
+            ],
+            "reference_answer": "The maximum amount reimbursed for any excess or security bond paid under a rental or loan car agreement due to accidental loss or damage is $3,000 in total.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What conditions must be met to make a claim under the windscreen option in the NRMA car policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Windscreen\n\nIf you add this option, you don\u2019t need to pay any excess that applies when you make a claim under \u2018Windscreen, sunroof and window glass damage\u2019 \u2013 see page 37.\n\n Covered\n\n- We waive any excess that applies to your policy.\n\n Conditions\n\n- To make a claim under this option, the damage must only affect your windscreen, sunroof or window glass and no other parts of your vehicle.\n- We may use non-genuine parts to replace your windscreen, sunroof or window glass.\n\n Any Repairer\n\nIf an incident we cover causes loss or damage to your vehicle, we will arrange for an NRMA Partner Repairer to fix your vehicle \u2013 see page 72.\n\nHowever, if you have added this option you may use any licensed repairer of your choice, which may be an NRMA Partner Repairer \u2013 see page 72.\n\nYour choice of repairer must have all the necessary equipment, skills, capabilities, licences and authorisations required by law, to complete the repairs to your vehicle."
+            ],
+            "reference_answer": "To make a claim under the windscreen option in the NRMA car policy, the following condition must be met: the damage must only affect your windscreen, sunroof, or window glass and no other parts of your vehicle.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What specific content is missing from the document named \"nrma-car-pds-policy.pdf\"?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "NO_CONTENT_HERE"
+            ],
+            "reference_answer": "The document named \"nrma-car-pds-policy.pdf\" contains a placeholder indicating \"NO_CONTENT_HERE,\" which suggests that specific content is missing, but the exact nature of the missing content is not specified in the provided context.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What type of coverage does the NRMA car policy provide under the liability cover section?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Liability cover"
+            ],
+            "reference_answer": "The NRMA car policy provides liability coverage, which typically includes protection against claims for damages or injuries that the policyholder may cause to other people or their property while operating a vehicle. This type of coverage generally helps cover legal fees, medical expenses, and repair costs for the affected third parties.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the total cost incurred for towing and hiring a car while the vehicle is being repaired?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "How we pay claims \u2013 some examples\n\nIn this section, we outline examples of how we may pay some claims.\n\nThese claims are based on certain scenarios. Any amount we pay for your claim depends on the details that apply to your situation.\n\n Claim 1: Repairing your vehicle\n\nYou have a crash with another vehicle where you are at fault. Your vehicle is towed from the scene of the accident to a repairer. The towing cost is $350.\n\nWe decide to repair your vehicle. The cost of the repairs is $2,250.\n\nYou decide to hire a car for 6 days while your vehicle is being repaired. You pay $75 a day for the hire car."
+            ],
+            "reference_answer": "The total cost incurred for towing and hiring a car while the vehicle is being repaired is $800. This includes $350 for towing and $450 for hiring a car for 6 days at $75 per day.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What conditions must be met for NRMA to arrange a hire car after a not at fault collision?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Hire car after a not at fault collision or crash\n\nIf a collision or crash with another vehicle causes loss or damage to your vehicle (except for motorcycles) and:\n\n- we are satisfied the driver of that vehicle was at fault, and\n- you can give us their name and residential address, and\n- you need a hire car.\n\nSee \u2018Determining fault in an incident\u2019 on page 78.\n\nWe pay this benefit on top of your agreed or market value.\n\nIf a theft or attempted theft we cover, causes loss or damage to your vehicle and you need a hire car \u2013 see page 32.\n\nIf you want us to provide a hire car after any other incident we cover, then you can add the \u2018Hire Car\u2019 option \u2013 see page 38.\n\n Covered\n\n- a hire car until whichever of these events happen first:\n  - your vehicle is repaired, or\n  - we pay your claim for a total loss\n- up to $2,000 in total for any excess and or security bond payable under the hire car agreement because there is loss or damage to the hire car or it causes loss or damage.\n\n Not covered\n\n- we do not provide this benefit if your vehicle is a motorcycle\n- running costs for the hire car (for example, petrol or tolls)\n- any additional hire car costs (for example, any optional extras such as a GPS)\n- loss or damage to the hire car\n- liability which results from using the hire car\n- any additional hire car costs if the repairs to your vehicle are unreasonably delayed by you or any repairer you appoint or engage.\n\n Conditions\n\n- the driver of the other vehicle is at fault and you can give us their name and residential address\n- we will arrange a hire car for you. You must not arrange your own hire car under any circumstances unless you obtain our prior written consent by contacting us on 131 123. If you do, then we may decide not to pay for the hire car\n- we will do our best to arrange a car that meets your needs\n- your vehicle must be:\n  - not drivable\n  - unsafe to drive, or\n  - in for repairs.\n\n----\n\n**We will arrange a hire car for you and will do our best to arrange a car that meets your needs**"
+            ],
+            "reference_answer": "For NRMA to arrange a hire car after a not at fault collision, the following conditions must be met:\n\n1. The collision or crash with another vehicle must cause loss or damage to your vehicle (excluding motorcycles).\n2. NRMA must be satisfied that the driver of the other vehicle was at fault.\n3. You must provide NRMA with the name and residential address of the driver of the other vehicle.\n4. You must need a hire car.\n5. Your vehicle must be:\n   - Not drivable,\n   - Unsafe to drive, or\n   - In for repairs.\n\nAdditionally, you must not arrange your own hire car unless you obtain prior written consent from NRMA.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What specific details and coverage information are provided for the hire car coverage option in the NRMA car insurance policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Details about car insurance options including hire car coverage, windscreen repair, and choice of repairer.,\nwith the following table title:\nCar Insurance Options,\nwith the following columns:\n- Option: Description of the insurance option\n- Details: Specific details and coverage information for each option\n- Page: Page number where the information is located\n"
+            ],
+            "reference_answer": "The specific details and coverage information for the hire car coverage option in the NRMA car insurance policy are not provided in the context information. To find this information, you would need to refer to the actual document, \"nrma-car-pds-policy.pdf,\" and look for the section on hire car coverage within the car insurance options.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What type of insurance cover is mentioned in the NRMA car PDS policy document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Your insurance cover\n\n Loss or damage to your vehicle"
+            ],
+            "reference_answer": "The NRMA car PDS policy document mentions insurance cover for loss or damage to your vehicle.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the condition for receiving a full refund if you cancel your policy within the 21-day cooling-off period?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# 21 day cooling-off period\n\nYou can tell us to cancel your policy within 21 days from:\n\n- the date we issue your policy \u2013 for example, if you call us on 3 May to set up a new policy from 10 May, then your 21 day cooling-off period starts from 3 May as that\u2019s when we issued your policy\n- the start date of the policy period that applies when you renew your policy.\n\nIf you tell us to cancel your policy within those times, we\u2019ll refund the premium you paid us in full. However, we can only do that if you haven\u2019t made a claim on your policy.\n\n## Assigning rights and appointing a representative\n\n### Assigning your rights\n\nYou must not assign any benefits, rights or obligations under your policy unless you get our written consent first.\n\n### Appointing someone to represent you\n\nIf you want to appoint someone to represent you, then you need to tell us and we need to agree that we will deal with them on your behalf. For example, you ask someone to manage your policy or a claim. For more details about who you can appoint to manage your claim, such as a repairer, see page 62.\n\nWe will not unreasonably withhold our consent to an appointment. However, we may have a concern with a party that may present a conflict of interest. For example, someone who supplies goods or services for your claim.\n\n## Governing law and GST\n\n### Governing law\n\nThis contract is governed by the law of the Australian State or Territory where you keep your vehicle.\n\n### GST\n\nAll dollar values described in your policy include GST, unless we say they don\u2019t."
+            ],
+            "reference_answer": "To receive a full refund if you cancel your policy within the 21-day cooling-off period, you must not have made a claim on your policy.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the basic excess amount for a Comprehensive Insurance policy according to the nrma-car-pds-policy.pdf document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Table showing the Basic Excess amount for Comprehensive Insurance policy.,\nwith the following table title:\nComprehensive Insurance Basic Excess,\nwith the following columns:\n- Policy type: Type of insurance policy\n- Basic excess: Amount of basic excess in dollars\n"
+            ],
+            "reference_answer": "The basic excess amount for a Comprehensive Insurance policy according to the nrma-car-pds-policy.pdf document is not explicitly stated in the provided context information.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What does Table 8.1 in the NRMA car PDS policy document specify regarding payment for a total loss?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Table 8.1: What we pay for a total loss"
+            ],
+            "reference_answer": "Table 8.1 in the NRMA car PDS policy document specifies what is paid for a total loss.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What specific information is missing from the document \"allianz-car-pds-policy.pdf\"?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "NO_CONTENT_HERE"
+            ],
+            "reference_answer": "The document \"allianz-car-pds-policy.pdf\" contains no specific content information, as indicated by \"NO_CONTENT_HERE.\" Therefore, it is not possible to determine what specific information is missing from the document based on the provided context.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the AFS Licence number for Allianz Australia Insurance Limited?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "For all enquiries please call your Broker.\n\nAllianz Australia Insurance Limited  \nAFS Licence No. 234708  \nABN 15 000 122 850  \nGPO Box 9870 Melbourne VIC 3000\n\nPOL011BA 02/22"
+            ],
+            "reference_answer": "The AFS Licence number for Allianz Australia Insurance Limited is 234708.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What services are provided by NRMA Partner Repairer for vehicle loss or damage?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Details of coverage for vehicle loss or damage and repair services provided by NRMA Partner Repairer.,\nwith the following table title:\nCoverage Details,\nwith the following columns:\n- Coverage: None\n- Details: None\n- Page: None\n"
+            ],
+            "reference_answer": "The document mentions coverage for vehicle loss or damage and repair services provided by NRMA Partner Repairer, but it does not provide specific details about the services in the given context.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What conditions must be met for Allianz to pay a credit provider if a vehicle under a finance arrangement is declared a total loss?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Payments to the Credit Provider\n\nIf we pay your claim as a total loss settlement on your vehicle that is under a finance arrangement, we first pay the credit provider the lower of these amounts after deducting any excess and deductions that apply:\n\n- the agreed value or market value;\n- the cost of repairing your vehicle; and\n- the balance owing to the credit provider under the finance arrangement.\n\nIf the credit provider is entitled to the salvage of the vehicle, we will deduct the estimated salvage value of the vehicle from any amount we pay them.\n\nHowever, we will only pay the credit provider if they:\n\n- are noted on your policy schedule; and\n- give us any help we reasonably ask for.\n\nIf we make a payment to a credit provider, then that payment discharges our obligation to you under your policy for the amount paid.\n\nIf we decide to settle your claim as a total loss, before we settle your claim:\n\n- we will check the Personal Property Securities Register to confirm whether any money is owing on your vehicle; and\n- you must settle any finance arrangement over your vehicle and remove it from that register or agree for us to pay (and provide all information we reasonably require to pay) the settlement amount (up to the outstanding balance on the finance arrangement) directly to the credit provider.\n\n# GST Notice\n\nThe policy has a GST provision in relation to premium and our payment to you for claims. It may have an impact on how you determine the amount of insurance you need.\n\nPlease read it carefully. Seek professional advice if you have any queries about GST and your insurance.\n\n# Sums Insured\n\nAll monetary limits in the policy may be adjusted for GST in some circumstances (see below).\n\n# Claim Settlements \u2013 Where We Agree to Pay\n\nWhen we calculate the amount we will pay you, we will have regard to the items below:\n\n## Acquisition of Goods, Services or Repairs\n\nWhere you are liable to pay an amount for GST in respect of an acquisition relevant to your claim (such as services to repair a damaged item insured under the policy) we will pay for the GST amount.\n\nWe will pay the GST amount in addition to the sum insured/limit of indemnity or other limits shown in the policy or in this schedule (unless we state GST is included in Sum Insured or Limit of Indemnity)."
+            ],
+            "reference_answer": "For Allianz to pay a credit provider if a vehicle under a finance arrangement is declared a total loss, the following conditions must be met:\n\n1. The credit provider must be noted on your policy schedule.\n2. The credit provider must give Allianz any help they reasonably ask for.\n3. Allianz will first pay the credit provider the lower of the agreed value or market value, the cost of repairing the vehicle, or the balance owing to the credit provider under the finance arrangement, after deducting any excess and deductions that apply.\n4. If the credit provider is entitled to the salvage of the vehicle, Allianz will deduct the estimated salvage value of the vehicle from any amount paid to them.\n5. Before settling the claim, Allianz will check the Personal Property Securities Register to confirm whether any money is owing on the vehicle.\n6. The policyholder must settle any finance arrangement over the vehicle and remove it from the register or agree for Allianz to pay the settlement amount directly to the credit provider, up to the outstanding balance on the finance arrangement, and provide all information reasonably required for this payment.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What specific details are covered in the Allianz car insurance policy as outlined in the document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Table of Contents"
+            ],
+            "reference_answer": "I'm sorry, but I can't provide specific details from the Allianz car insurance policy document as it appears you have only provided the document name and not the content. If you can provide more specific excerpts or sections from the document, I would be able to help summarize or explain those details.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum number of benefits covered under Comprehensive Plus Insurance?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# What we pay\n\n### When a person we cover makes a claim and is entitled to liability cover, then we will:\n\n- Act for them or arrange for a lawyer to represent them\n- Attempt to resolve the claim\n- Defend the claim in a court or tribunal\n\nWe will decide whether to defend or resolve a claim and how much to pay to resolve a claim.\n\n### If we agree to cover your claim, then we will:\n\n- Decide whether to repair your vehicle or pay you the reasonable cost of repairs as determined by us or pay you the agreed value or market value that applies under your policy\n- Pay for any other benefits that apply to your policy\n- Pay for any options you have added to your policy\n- Deduct any amounts that apply (for example, excess, unpaid premium or any unused registration and CTP insurance premium)\n\n# Your insurance cover\n\n### Comprehensive Plus Insurance \u2013 our top cover\n\n- Loss or damage to your vehicle\n- Other benefits \u2013 up to 15 benefits (we cover you for extra things like a hire car and a taxi home after an incident we cover)\n- Options you can add \u2013 you pay extra for this\n- Liability cover\n\n### Comprehensive Insurance \u2013 our standard cover\n\n- Loss or damage to your vehicle\n- Other benefits \u2013 up to 14 benefits\n- Options you can add \u2013 you pay extra for this\n- Liability cover\n\n### Third Party Fire & Theft Insurance \u2013 our basic cover with some extras\n\n- Loss or damage to your vehicle (fire, theft or attempted theft only)\n- Other benefits \u2013 up to 7 benefits\n- Liability cover\n\n### Third Party Property Damage Insurance \u2013 our basic cover\n\n- Other benefits \u2013 up to 3 benefits\n- Liability cover\n\nTo compare these 4 types of insurance, see the next page."
+            ],
+            "reference_answer": "The maximum number of benefits covered under Comprehensive Plus Insurance is 15 benefits.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What specific information is missing from the document \"nrma-car-pds-policy.pdf\"?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "NO_CONTENT_HERE"
+            ],
+            "reference_answer": "The document \"nrma-car-pds-policy.pdf\" does not contain any specific information as it is indicated by \"NO_CONTENT_HERE.\"",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the contact number for reporting insurance fraud to NRMA Insurance?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# NRMA Insurance\n\n----\n\n## Contact\n\n- **Enquiries and new business**: 132 132\n- **Comprehensive Plus Claims**: 1300 654 903\n- **Claims**: 131 123\n- **Report insurance fraud**: 1800 237 283\n\n**nrma.com.au**\n\n----\n\nThis Product Disclosure Statement and Policy Booklet (PDS) is issued by Insurance Australia Limited  \nABN 11 000 016 722 AFS Licence No. 227681  \ntrading as NRMA Insurance  \nGPO Box 244 Sydney NSW 2001  \nG018066 08/22"
+            ],
+            "reference_answer": "The contact number for reporting insurance fraud to NRMA Insurance is 1800 237 283.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum amount payable for a vehicle under Third Party Fire & Theft Insurance?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "What we pay for\n\nIf we agree to cover your claim, then we will:\n\n- decide whether to repair your vehicle or pay you the reasonable cost of repairs as determined by us or pay you the agreed value or market value, depending on the cover you have chosen, that applies to your vehicle\n- pay for any other benefits that apply to your policy\n- pay for any options you have added to your policy\n- deduct any amounts that apply to your policy and claim (for example, excess, unpaid premium or unused registration and CTP insurance premium).\n\n The most we pay\n\nDepending on the type of insurance you\u2019ve chosen, the most we pay is:\n\n- the agreed value of your vehicle shown on your current Certificate of Insurance, or\n- your vehicle\u2019s market value.\n\nIf you have Third Party Fire & Theft Insurance, then the most we pay is your vehicle\u2019s market value up to $10,000.\n\nIf you have Third Party Fire & Theft Insurance or Third Party Property Damage Insurance and make a claim under \u2018Crash with at fault driver\u2019, then the most we pay is the market value of your vehicle up to $5,000 \u2014 see pages 43 and 50."
+            ],
+            "reference_answer": "The maximum amount payable for a vehicle under Third Party Fire & Theft Insurance is the vehicle\u2019s market value up to $10,000.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What important aspects should you be aware of when taking out insurance with NRMA, such as policy changes, complaint resolution, and personal information management?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Other information you need to know\n\nWhen you take out insurance with us, you need to know some other important things like the changes you can make to your policy, how we resolve a complaint and how we manage your personal information."
+            ],
+            "reference_answer": "When taking out insurance with NRMA, you should be aware of important aspects such as the changes you can make to your policy, how NRMA resolves complaints, and how they manage your personal information.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What actions indicate your consent to the collection, holding, use, and disclosure of your personal information according to the NRMA Car PDS Policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "----\n\n Your consent\n\nYou agree to us collecting, holding, using and disclosing your personal information as set out in our Privacy Policy when you:\n\n- provide us with your personal information, and\n- apply for, use or renew any of our products or services."
+            ],
+            "reference_answer": "According to the NRMA Car PDS Policy, your consent to the collection, holding, use, and disclosure of your personal information is indicated when you provide them with your personal information and when you apply for, use, or renew any of their products or services.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What happens to a recovered vehicle if a claim is settled under Comprehensive insurance and it is a total loss?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "If we have paid a claim following theft and the vehicle is then recovered after we have paid the claim, the recovered vehicle will become our property. At our discretion (and if safe to do so) you may reclaim the recovered vehicle if you agree to pay the salvage price.\n\nFor Third Party Fire and Theft insurance and Third Party Property Damage insurance, if we settle your claim under the \u201cUninsured motorist extension\u201d we will pay you the market value up to $5,000 less:\n\n- our estimated salvage value; and\n- any unpaid premium.\n\nYou would then keep the vehicle.\n\n Paying for other benefits\n\nIf we agree to pay you other benefits under the policy, we will pay the reasonable cost. We will repair, replace or pay the relevant loss or damage (as applicable) up to the maximum amount that applies under the benefit.\n\n What happens to your property\n\n Recovered vehicles\n\nIf we settle your claim under Comprehensive insurance and it is a total loss and the vehicle is later recovered we will usually keep the recovered vehicle. At our discretion (and if safe to do so), you may reclaim the recovered vehicle if you agree to pay the salvage price.\n\n Damaged property\n\nIf we settle the claim for a damaged item then it becomes our property. At our discretion (and if safe to do so), you may reclaim the recovered vehicle if you agree to pay the salvage price.\n\n Credit provider\u2019s rights\n\nYou must tell us if you have used the vehicle as security for a loan. This may also apply if you have a lease or hire purchase agreement on your vehicle.\n\nWhen you do this we note the credit provider on your policy schedule.\n\nWhen there is a credit provider noted:\n\n- we treat the vehicle as being under a finance arrangement;\n- we treat any statement, act, or omission or claim by you as a statement, act or omission by the credit provider; and\n- we may recover any payment either in your name or the credit provider\u2019s name."
+            ],
+            "reference_answer": "If a claim is settled under Comprehensive insurance and it is a total loss, and the vehicle is later recovered, the recovered vehicle will usually become the property of the insurer. However, at the insurer's discretion (and if it is safe to do so), you may reclaim the recovered vehicle if you agree to pay the salvage price.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What are the columns listed under the table title \"Policy Details\" in the nrma-car-pds-policy.pdf document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Details of a Comprehensive Insurance Policy,\nwith the following table title:\nPolicy Details,\nwith the following columns:\n- Policy type: Type of insurance policy\n- Agreed value: Agreed value for the insurance policy\n- Basic excess: Basic excess amount for the insurance policy\n"
+            ],
+            "reference_answer": "The columns listed under the table title \"Policy Details\" in the nrma-car-pds-policy.pdf document are:\n\n- Policy type: Type of insurance policy\n- Agreed value: Agreed value for the insurance policy\n- Basic excess: Basic excess amount for the insurance policy",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What actions can NRMA take without the policyholder's consent in recovery actions?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Businesses registered for GST\n\nBefore we make a payment, we deduct an amount equal to your input tax credit entitlement. This applies to any amount we pay, including where we state that an amount will include GST.\n\nAny payment we make to settle your claim will be considered to be made in full even if we have reduced the amount we pay as described above.\n\n# Recovery actions\n\nYou agree that following provisions, which appear under the headings **Recovery action by us** and **Recovery action by you** apply where we cover you under the policy for some or all of the loss or damage you suffer in connection with an incident.\n\n## Recovery action by us\n\nYou agree we may, if we choose to, take steps to recover from someone else we consider responsible for the incident:\n\n- some or all of the loss or damage we cover; and/or\n- some or all of the loss or damage which we do not cover, whether or not it is covered by another insurer or you do not have cover for it.\n\nYou agree we may take such recovery action:\n\n- without your consent;\n- using your name; and\n- whether or not you have been, or have a right to be, fully compensated for all of your loss or damage by us or anybody else.\n\nExamples of recovery action we may take include:\n\n- conducting legal proceedings using your name, including as an applicant or plaintiff in representative or group proceedings (commonly known as class actions);\n- conducting legal proceedings on your behalf as a member of representative or group proceedings;\n- taking over the conduct of legal proceedings started by you or on your behalf, including as an applicant or plaintiff in representative or group proceedings;\n- exercising any statutory or contractual rights, including rights to opt-out, that you have in or in connection with representative or group proceedings; and/or\n- entering into contracts in your name in relation to litigation funding or legal representation, including where entry into those agreements causes you to become a group member of representative or group proceedings.\n\nWe have in our discretion the right to decide upon the conduct and any settlement of any recovery action we take."
+            ],
+            "reference_answer": "NRMA can take the following recovery actions without the policyholder's consent:\n\n1. Take steps to recover from someone else they consider responsible for the incident.\n2. Conduct legal proceedings using the policyholder's name, including as an applicant or plaintiff in representative or group proceedings (commonly known as class actions).\n3. Conduct legal proceedings on behalf of the policyholder as a member of representative or group proceedings.\n4. Take over the conduct of legal proceedings started by the policyholder or on their behalf, including as an applicant or plaintiff in representative or group proceedings.\n5. Exercise any statutory or contractual rights, including rights to opt-out, that the policyholder has in or in connection with representative or group proceedings.\n6. Enter into contracts in the policyholder's name in relation to litigation funding or legal representation, including where entry into those agreements causes the policyholder to become a group member of representative or group proceedings.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What specific information is missing from the document \"nrma-car-pds-policy.pdf\"?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "NO_CONTENT_HERE"
+            ],
+            "reference_answer": "The document \"nrma-car-pds-policy.pdf\" contains no specific content information, as indicated by \"NO_CONTENT_HERE.\" Therefore, it is not possible to determine what specific information is missing from the document based on the provided context.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum amount reimbursed for emergency repairs to a vehicle under the NRMA car policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Other benefits\n\nYour policy covers loss or damage that is caused by the use of your vehicle to someone else\u2019s property \u2014 see \u2018Liability cover\u2019 on pages 52 \u2013 54.\n\nWe may also provide other benefits that are set out in this section.\n\nYou can make a claim for other benefits when an incident we cover happens during the policy period and causes loss or damage to your vehicle and we agree to pay for that loss or damage.\n\nHowever, you can make a claim under some benefits in other situations. For example, under \u2018Keys, locks and barrels\u2019, we may pay the cost to replace your car keys if someone steals your bag and your car keys are inside it.\n\n## Baby capsules and child seats\n\nIf an incident we cover causes loss or damage to your vehicle and a baby capsule or child seat in your vehicle.\n\nWe pay this benefit on top of your agreed value.\n\n### Covered\n\n- Up to $500 to replace each baby capsule or child seat that\u2019s in your vehicle.\n\n## Emergency repairs\n\nIf an incident we cover causes loss or damage to your vehicle and you arrange emergency repairs to your vehicle so you can get back on the road safely.\n\nFor example, someone crashes into the back of your car. To make your car safe to drive, you arrange for the rear brake light to be fixed straight away.\n\n### Covered\n\n- We will reimburse you up to $800 in total for emergency repairs to your vehicle.\n\n### Not covered\n\n- Non-emergency repairs.\n\n### Conditions\n\n- We will determine what is an emergency repair.\n- The emergency repairs must be made to keep your vehicle secure or to get you back on the road safely.\n- You must pay for the emergency repairs up front and provide us with the tax invoice, unless we agree otherwise.\n- The emergency repairs must be directly related to the incident you are claiming for.\n\n----\n\n**Emergency repairs are repairs you arrange to make your vehicle secure or get you back on the road safely.**"
+            ],
+            "reference_answer": "The maximum amount reimbursed for emergency repairs to a vehicle under the NRMA car policy is $800 in total.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What types of tyre damage are not covered under the NRMA car policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Types of loss or damage\n\nWe don\u2019t cover:\n\n- Tyre damage caused by road cuts, punctures, bursts or braking (except if there is loss or damage to other parts of your vehicle)\n- Mechanical, structural, electrical, hydraulic, or electronic breakdown or failure\n- Deterioration or wear and tear caused:\n  - Over time\n  - By using your vehicle\n  - By exposing your vehicle to the elements \u2013 for example, faded or damaged paint from exposure to sun, dirt and/or corrosive materials\n- Rust or any type of corrosion\n- Depreciation or loss of your vehicle\u2019s value \u2013 for example, if your vehicle is worth less after an incident\n- Consequential loss including any loss which results because you can\u2019t use your vehicle \u2013 unless it is specifically covered under this policy. This means we will not pay for direct or indirect financial or economic loss. For example, loss of use or enjoyment, loss of profits or depreciation\n- Compensation for distress, inconvenience or other non-financial loss (except if we cover it under \u2018Liability cover\u2019).\n\n Other\n\nWe don\u2019t cover:\n\n- Any loss, damage or liability caused by, arising from, occasioned by or through or in consequence directly or indirectly of war, invasion, acts of foreign enemy, hostilities (whether war be declared or not), civil war, insurrection, rebellion, revolution or military or usurped power\n- Any loss, damage, liability, cost or expense directly or indirectly caused by, contributed to by, resulting from or arising out of or in connection with:\n  - An act of terrorism, regardless of any other cause or event contributing concurrently or in any other sequence to the loss, or\n  - Any action taken to control, prevent, suppress, retaliate against, or respond to an act of terrorism\n- Loss, damage, liability, claim, cost or expense directly or indirectly caused or contributed to by:\n  - Errors or omissions involving access to, processing of, use of or operation of any computer system or any unavailability or failure to access, process, use or operate any computer system, or\n  - Any unauthorised, malicious or criminal act (or any threat or hoax of this) involving access to, processing of, use of or operation of any computer system,\n\nprovided that this exclusion will not apply to physical loss or damage directly caused by an incident or event we cover you for under this policy except if caused by vandalism or a malicious act. For example, we will not cover you if your vehicle\u2019s GPS or security system cannot be used because of a cyber attack, but we will cover you for theft of your vehicle if it is stolen after your vehicle\u2019s security system is impacted by a cyber attack."
+            ],
+            "reference_answer": "The NRMA car policy does not cover tyre damage caused by road cuts, punctures, bursts, or braking, except if there is loss or damage to other parts of your vehicle.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the basic excess amount you need to pay when settling a claim with NRMA?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "How we settle your claim\n\nWe request you:\n\n- Your replacement vehicle\n- New registration and CTP insurance for that vehicle\n- You to have a hire car until we settle your claim for up to 21 days.\n\nWe request you:\n\n- Pay us your basic excess of $800\n- Apply for your registration and CTP insurance refund and give it to us or to the car dealer.\n\nYour policy ends. If you want us to cover your replacement vehicle, you need to take out a new policy:\n\n- Call 132 132\n- Visit nrma.com.au\n- Visit a local branch\n\n Claim 4: Liability claim for damage to someone else's property\n\nYou lose control of your vehicle and crash into someone\u2019s front fence and garden. A court decides that you are liable to pay $8,000 for the claim made against you by the home owner."
+            ],
+            "reference_answer": "The basic excess amount you need to pay when settling a claim with NRMA is $800.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What conditions must be met for a claim to be paid if the vehicle was driven by someone under the influence of drugs or alcohol?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "When we will not pay your claim\n\nYou are not covered and we will not pay any claim under the policy for loss, damage, liability, costs or expenses directly or indirectly caused by, arising from or in any way connected with:\n\n An unlicensed driver\n\nYour vehicle being driven by or in charge of someone unlicensed (unless a learner driver accompanied by the holder of a full unrestricted Australian drivers licence), or not complying with the conditions of their licence or learners permit (as applicable). We will pay a claim for you but not the driver or person in charge of your vehicle if you can prove to us that:\n\n- you were not the driver of the vehicle when the incident leading to the claim occurred; and\n- you did not or could not reasonably have been expected to know that the driver was unlicensed, or not complying with the condition of their licence or learners permit.\n\n A declined driver\n\nYour vehicle being driven by a person shown on the policy schedule as a declined driver.\n\n A driver under the influence\n\nYour vehicle being driven by you, or any other person:\n\n- who was under the influence of any drug or intoxicating alcohol;\n- who, as a result of the accident, is convicted of driving under the influence of any drug or intoxicating alcohol;\n- who had a percentage of alcohol in their breath or blood in excess of the percentage permitted by law in the State or Territory where the accident occurred; or\n- who refused to submit to any test to determine the level of alcohol or drugs in the breath or blood at the time of the accident when reasonably requested by the police.\n\nWe will pay a claim for you, but not the driver or person in charge of your vehicle, if you can prove to us that:\n\n- you were not the driver of the vehicle when the incident leading to the claim occurred; and\n- you had no reason to suspect that the driver was affected by alcohol or any drug."
+            ],
+            "reference_answer": "For a claim to be paid if the vehicle was driven by someone under the influence of drugs or alcohol, the following conditions must be met:\n\n1. You were not the driver of the vehicle when the incident leading to the claim occurred.\n2. You had no reason to suspect that the driver was affected by alcohol or any drug.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum amount payable for emergency accommodation and travelling expenses if your vehicle is more than 100 kilometres from its normal parking address at night?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Child seats or baby capsules\n\nFollowing a covered accident, we will replace any child seat or baby capsule in your vehicle.\n\nThe maximum we will pay in respect of any one incident is $650 per seat.\n\n Emergency repairs\n\nWe will reimburse you for the cost of emergency repairs which may be necessary to enable you to drive your vehicle home after a covered accident.\n\nThe maximum we will pay in respect of any one incident is $500.\n\n Emergency accommodation and travelling expenses\n\nWe will pay for any reasonable additional travel or accommodation expenses incurred by you as a result of a covered accident, provided that at the time of the covered accident your vehicle was more than 100 kilometres from the address where it is normally parked at night.\n\nWe will not pay accommodation expenses if you had intended to pay for overnight accommodation in any event. Travelling expenses extends to include the cost of collecting your vehicle following repairs.\n\nThe maximum amount we will pay for accommodation and travelling expenses combined resulting from any one claim or incident is $1,500.\n\n Lock re-keying/re-coding\n\nIf the keys to your vehicle are stolen during the period of insurance by a person that is not a family member, invitee or person who resides with you, we will pay for the replacement of your vehicle\u2019s keys and the necessary re-coding of your vehicle\u2019s locks.\n\nThe maximum amount we will pay is $2,000 for any one incident.\n\nThis benefit will only apply if the theft of your keys has been reported to the police.\n\nCover under this benefit does not entitle you to a claim for a rental vehicle.\n\n Personal items\n\nWe will also pay for the accidental damage to or theft of personal effects and clothing belonging to you, your spouse, your de facto or dependent children that occurs during the period of insurance and where:\n\n- we have accepted your claim for accidental damage to your vehicle; or\n- they were stolen from your vehicle which was locked; or\n- we have accepted your claim for theft of your vehicle and they were stolen at the same time."
+            ],
+            "reference_answer": "The maximum amount payable for emergency accommodation and travelling expenses if your vehicle is more than 100 kilometres from its normal parking address at night is $1,500.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What countries might Allianz disclose your personal information to, according to the document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Disclosure overseas\n\nYour personal information may be disclosed to other companies in the Allianz Group, business partners, reinsurers and service providers that may be located in Australia or overseas. The countries this information may be disclosed to will vary from time to time, but may include Canada, Germany, New Zealand, United Kingdom, United States of America and other countries where the Allianz Group has a presence or engages subcontractors. We regularly review the security of our systems used for sending personal information overseas. Any information disclosed may only be used for the purposes of collection detailed above and system administration.\n\n Access to your personal information and complaints\n\nYou may ask for access to the personal information we hold about you and seek correction by calling 1300 360 529 EST 8am to 6pm, Monday to Friday. Our Privacy Policy contains details about how you may make a complaint about a breach of the privacy principles contained in the Privacy Act 1988 (Cth) and how we deal with complaints. Our Privacy Policy is available at www.allianz.com.au.\n\n Telephone call recording\n\nWe may record incoming or outgoing telephone calls for training or verification purposes. Where we have recorded a telephone call, we can provide you with a copy at your request, where it is reasonable to do so.\n\n Your consent\n\nBy providing us with personal information you and any other person you provide personal information for, consent to these uses and disclosures until you tell us otherwise. If you wish to withdraw your consent, including for things such as receiving information on products and offers by us or persons we have an association with, please contact us.\n\n General Insurance Code of Practice\n\nThe General Insurance Code of Practice was developed by the Insurance Council of Australia to further raise standards of practice and service across the insurance industry.\n\nThe Code Governance Committee (CGC) is an independent body that monitors and enforces insurers\u2019 compliance with the Code.\n\nYou can obtain more information on the Code of Practice and how it assists you by contacting Allianz on 13 2664.\n\nFor more information on the Code Governance Committee (CGC) go to https://insurancecode.org.au."
+            ],
+            "reference_answer": "According to the document, Allianz might disclose your personal information to countries including Canada, Germany, New Zealand, United Kingdom, United States of America, and other countries where the Allianz Group has a presence or engages subcontractors.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What must you do if you want to authorise repairs to your vehicle after an incident?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Prevent further loss or damage\n\nIf an incident happens, you must do everything reasonable to prevent further loss or damage to your vehicle.\n\n# Authorising repairs to your vehicle\n\nYou must not start, approve or authorise any repairs to your vehicle under any circumstances, unless:\n\n- we allow it under \u2018Emergency repairs\u2019 \u2013 see pages 17, 29 and 44, or\n- you obtain our prior written consent by contacting us on 131 123.\n\nIf you do, then we may decide not to pay for those repairs.\n\nIf we have cash settled your claim instead of authorising repairs and then you arrange or authorise repairs, we are not responsible for any costs associated with those repairs.\n\n# Inspections and quotes\n\nIf we ask you, you must:\n\n- let us or our representatives inspect your vehicle at any reasonable time, at a place we choose\n- allow us to get quotations from any repairer or supplier.\n\nIf we need to move your vehicle to do this, we will pay for it.\n\nWe won\u2019t cover the cost for:\n\n- inspections or reports authorised by you without our consent\n- dismantling fees, quoting fees or administration fees.\n\n# Proof of loss and ownership\n\nWhen you make a claim, we may ask you to provide certain documents to:\n\n- help substantiate your claim by providing proof that you owned the vehicle, personal items, modifications, options or accessories\n- help us identify your items.\n\nThe types of documents we ask for depend on the situation and can include:\n\n- tax invoices for items bought or services used\n- valuation, model and serial numbers\n- credit card or bank statements\n- photos\n- registration documents\n- hire car agreements\n- finance agreements.\n\nWe may compare information you give us with a range of other sources \u2013 for example, auction or sale websites."
+            ],
+            "reference_answer": "If you want to authorise repairs to your vehicle after an incident, you must either obtain prior written consent from NRMA by contacting them on 131 123, or ensure that the repairs fall under the 'Emergency repairs' provisions as outlined on pages 17, 29, and 44 of the policy document. If you authorise repairs without meeting these conditions, NRMA may decide not to pay for those repairs.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What does \"total loss\" mean in the Allianz car policy document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "substitute vehicle means a vehicle similar to your vehicle which has been hired or borrowed because your vehicle is being repaired, serviced or is not drivable because of a mechanical breakdown.\n\ntotal loss means when, in our opinion, the vehicle, trailer or caravan is so badly damaged that it would not be safe, or it is uneconomical, for us to repair or when it has not been found within 14 days of you reporting its theft to us.\n\nuneconomical to repair means when the cost of repairs to us less the salvage value is greater than the:\n\n- replacement cost \u2013 where a total loss gives you the right to a replacement vehicle under the policy; or\n- agreed value \u2013 if your vehicle is insured for an agreed value;\n- market value \u2013 if your vehicle is insured for market value; or\n- market value or $5,000, whichever is the lesser \u2013 if your vehicle is insured under the uninsured motorist\u2019s extension or Third Party Fire and Theft,\n\nunless otherwise notified to you by us in writing.\n\nvehicle usage means the use of your vehicle, which you have told us about. This is shown on your policy schedule. Vehicle usage may be either:\n\n- business, which means any vehicle which is used for income earning purposes;\n- rideshare means the use of your vehicle for the purposes of carrying passengers for a fee via an app or web based platform, but does not include the use of your vehicle as a taxi; or\n- private, which means any type of use other than business use or rideshare.\n\nwe, our or us means Allianz Australia Insurance Limited ABN 15 000 122 850 AFS Licence No. 234708.\n\nyou or your means the person(s) named in the policy schedule as the insured.\n\nyour vehicle means the registered vehicle shown on your policy schedule including:\n\n- its standard tools, modifications and accessories as supplied by the manufacturer; and\n- its fitted or non-standard extras, modifications and accessories which are shown on your policy schedule.\n\nText 086 12.21\n\n52"
+            ],
+            "reference_answer": "In the Allianz car policy document, \"total loss\" means that, in the opinion of Allianz, the vehicle, trailer, or caravan is so badly damaged that it would not be safe or it is uneconomical to repair. It also refers to situations where the vehicle has not been found within 14 days of reporting its theft to Allianz.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What type of liability cover is provided in the NRMA car policy document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Liability cover"
+            ],
+            "reference_answer": "The NRMA car policy document provides liability cover, but the specific type of liability cover is not detailed in the provided context. For precise information, please refer to the relevant sections of the NRMA car policy document.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What optional excesses can you select to decrease your premium for Comprehensive Motor Insurance cover in the Allianz car policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Optional excesses you can select to decrease your premium for Comprehensive Motor Insurance cover"
+            ],
+            "reference_answer": "The document does not provide specific details about the optional excesses available to decrease your premium for Comprehensive Motor Insurance cover in the Allianz car policy.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum amount payable under Third Party Fire & Theft insurance for a vehicle's market value?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Making a claim\n\n Assisting us with your claim\n\nYou must assist us with your claim. This means give us all the information and assistance with your claim which we may reasonably require. If you do not we may not pay your claim (in whole or in part) or provide cover to the extent we are prejudiced by that failure.\n\nIf we have the right to recover any amount payable under the policy from any other person, you must take reasonable steps to co-operate with us in any action we may take.\n\n When you are at fault\n\nYou are at fault if you:\n\n- are responsible for the accident; or\n- contributed to the cause of an accident.\n\n What we pay for\n\nIf we agree to settle your claim, we will (acting reasonably):\n\n- decide whether to repair your vehicle, pay the reasonable cost of repairing your vehicle or pay the agreed or the market value or maximum sum insured (as applicable);\n- pay any other benefits that apply;\n- pay for any optional covers you have chosen and paid for; and\n- deduct any amounts that apply to the policy such as excess or unpaid premium.\n\n The most we will pay\n\nThis will depend on what level of insurance cover you have chosen:\n\n- if you have Comprehensive insurance we will pay either the agreed or market value (as applicable);\n- if you have Third Party Fire & Theft insurance the most we will pay is the vehicle\u2019s market value up to $5,000;\n- if you have chosen either Third Party Property Damage or Third Party Fire & Theft insurance and claim under the uninsured motorist\u2019s extension, then the most we will pay is $5,000,\n\nand any other amounts that may be payable under any additional or optional benefits that apply to your cover."
+            ],
+            "reference_answer": "The maximum amount payable under Third Party Fire & Theft insurance for a vehicle's market value is $5,000.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the basic excess amount for a liability claim under Third Party Property Damage Insurance?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Claim 3: Stolen vehicle with new replacement vehicle\n\nYour vehicle is stolen and not recovered. It was only 7 months old.\n\nYou choose to replace your vehicle with a new one under \u2018New replacement vehicle\u2019 \u2013 see page 33.\n\nWe arrange a hire car for you.\n\n| Policy type               | Comprehensive Insurance |\n|---------------------------|--------------------------|\n| Agreed value              | $32,000                  |\n| Basic excess              | $800                     |\n\n## How we settle your claim\n\nWe request you:\n\n- Your replacement vehicle\n- New registration and CTP insurance for that vehicle\n- You to have a hire car until we settle your claim for up to 21 days.\n\nWe request you:\n\n- Pay us your basic excess of $800\n- Apply for your registration and CTP insurance refund and give it to us or to the car dealer.\n\nYour policy ends. If you want us to cover your replacement vehicle, you need to take out a new policy:\n\n- Call 132 132\n- Visit nrma.com.au\n- Visit a local branch\n\n# Claim 4: Liability claim for damage to someone else's property\n\nYou lose control of your vehicle and crash into someone\u2019s front fence and garden. A court decides that you are liable to pay $8,000 for the claim made against you by the home owner.\n\n| Policy type               | Third Party Property Damage Insurance |\n|---------------------------|---------------------------------------|\n| Liability cover           | $20 million                           |\n| Basic excess              | $695                                  |\n\n## How we settle your claim\n\nWe request you to pay us your basic excess of $695.\n\n- We pay the home owner $8,000.\n- We pay our lawyers $1,500 to act on your behalf in the court proceedings."
+            ],
+            "reference_answer": "The basic excess amount for a liability claim under Third Party Property Damage Insurance is $695.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the free call number for the NRMA Customer Relations team to assist with unresolved complaints?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "How to resolve a complaint or dispute\n\nWe will always do our best to provide you the highest level of service but if you are not happy or have a complaint or dispute, here is what you can do.\n\nIf you experience a problem or are not satisfied with our products, our services or a decision we have made, let us know so we can help.\n\nCall us on 132 132 or go to our website for more information: nrma.com.au\n\nWe will try to resolve complaints at first contact or shortly thereafter.\n\nIf we are not able to resolve your complaint when you contact us or you would prefer not to contact the people who provided your initial service, our Customer Relations team can assist:\n\n- Free Call: 1800 045 517\n- Email: Customer.Relations@iag.com.au\n\nCustomer Relations will contact you if they require additional information or have reached a decision. Customer Relations will advise you of the progress of your complaint and the timeframe for a decision in relation to your complaint.\n\nWe expect our procedures will deal fairly and promptly with your complaint. If you are unhappy with the decision made by Customer Relations you may wish to seek an external review, such as referring the issue to the Australian Financial Complaints Authority (AFCA). AFCA provides fair and independent financial services complaint resolution that is free to customers. AFCA has authority to hear certain complaints. AFCA will confirm if they can assist you:\n\n- Free Call: 1800 931 678\n- Email: info@afca.org.au\n- Mail: Australian Financial Complaints Authority GPO Box 3 Melbourne VIC 3001\n- Visit: www.afca.org.au\n\nFurther information about our complaint and dispute resolution process is available by contacting us."
+            ],
+            "reference_answer": "The free call number for the NRMA Customer Relations team to assist with unresolved complaints is 1800 045 517.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What specific information is missing from the document \"allianz-car-pds-policy.pdf\"?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "NO_CONTENT_HERE"
+            ],
+            "reference_answer": "The document \"allianz-car-pds-policy.pdf\" contains no specific content information, as indicated by \"NO_CONTENT_HERE.\" Therefore, it is not possible to determine what specific information is missing from the document based on the provided context.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What actions may Allianz take if you fail to inform them of changes during the insurance period?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Changes to your policy\n\n## What you must tell us\n\nYou must tell us as soon as reasonably possible, if during the period of insurance the following events occur:\n\n- the driver(s) of your vehicle change;\n- the place where your vehicle is regularly garaged/kept changes;\n- your vehicle is modified in a manner that affects its value or performance in any way;\n- the vehicle usage changes;\n- any finance on your vehicle changes;\n- any matter listed on your policy schedule changes or is inaccurate;\n- you sell or give away your vehicle and replace it with another one;\n- you change your email or mailing address.\n\nWhen we receive this information, we may:\n\n- propose changes to the terms and conditions of your policy;\n- propose to charge you additional premium;\n- cancel your policy if there is a change and we can\u2019t reach an agreement with you on altered terms and conditions or premium; or we are no longer prepared to insure you because there has been a material change to the risk; or\n- decide not to offer to renew your policy.\n\nIf you do not provide the information as soon as reasonably possible we may be entitled to reduce, or refuse to pay a claim under the policy to the extent we are prejudiced by the delay or failure to provide this information.\n\n## Cancellation rights under your policy\n\nYou may cancel the policy at any time by telephoning us. We have the right to cancel the policy in certain circumstances.\n\nThese include:\n\n- if you failed to comply with your Duty to take reasonable care not to make a misrepresentation at the time the policy is entered into;"
+            ],
+            "reference_answer": "If you fail to inform Allianz of changes during the insurance period, they may be entitled to reduce or refuse to pay a claim under the policy to the extent they are prejudiced by the delay or failure to provide this information.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What options can be added to the NRMA car insurance policy as per the document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Options you can add"
+            ],
+            "reference_answer": "The document does not provide specific details about the options that can be added to the NRMA car insurance policy.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What are the differences in coverage between agreed value and market value in the insurance policies described in the document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Comparison of different types of insurance policies based on coverage for agreed value and market value.,\nwith the following table title:\nInsurance Policy Comparison,\nwith the following columns:\n- Type of insurance: The type of insurance policy\n- Agreed value: Indicates if the policy includes agreed value coverage\n- Market value: Indicates if the policy includes market value coverage and any limitations\n"
+            ],
+            "reference_answer": "The document describes two types of coverage in insurance policies: agreed value and market value. \n\n- **Agreed Value Coverage**: This type of coverage involves setting a predetermined amount that the insurer agrees to pay in the event of a total loss. This amount is agreed upon by both the insurer and the policyholder at the time the policy is purchased.\n\n- **Market Value Coverage**: This type of coverage involves the insurer paying the current market value of the vehicle at the time of the loss. The market value is typically determined based on the vehicle's condition, age, and other factors at the time of the claim.\n\nThe primary difference between the two is that agreed value provides a fixed payout amount, while market value coverage can vary based on the vehicle's depreciation and market conditions at the time of the claim.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What happens if the cost of repairs is less than the basic excess under a Comprehensive Insurance policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Claim 5: Crash with at fault driver\n\nYou have a crash with an uninsured driver. You give us the vehicle registration details and driver name and address.\n\nWe agree that the incident is entirely the other driver\u2019s fault. We decide to repair your vehicle under \u2018Crash with at fault driver\u2019 \u2013 see page 50.\n\nThe cost of the repairs is $4,500.\n\n| Policy type                              | Third Party Property Damage Insurance |\n|------------------------------------------|---------------------------------------|\n| Market value (assessed at time of incident) | $8,500                                |\n| Basic excess                             | $695                                  |\n\n**How we settle your claim**\n\nWe pay the repairer $4,500.\n\nYou don\u2019t need to pay your basic excess.\n\n----\n\n# Claim 6: Excess greater than claim amount\n\nYou reverse into your fence and cause some damage to the back of your vehicle.\n\nWe assess the damage. The cost of the repairs is $500.\n\n| Policy type     | Comprehensive Insurance |\n|-----------------|-------------------------|\n| Basic excess    | $695                    |\n\n**How we settle your claim**\n\nAs your basic excess is $695, we stop processing your claim because your excess is more than the repair costs for the damage to your vehicle."
+            ],
+            "reference_answer": "If the cost of repairs is less than the basic excess under a Comprehensive Insurance policy, the insurance company will stop processing your claim because the excess is more than the repair costs for the damage to your vehicle.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What does \"total loss\" mean in the Allianz car policy document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "substitute vehicle means a vehicle similar to your vehicle which has been hired or borrowed because your vehicle is being repaired, serviced or is not drivable because of a mechanical breakdown.\n\ntotal loss means when, in our opinion, the vehicle, trailer or caravan is so badly damaged that it would not be safe, or it is uneconomical, for us to repair or when it has not been found within 14 days of you reporting its theft to us.\n\nuneconomical to repair means when the cost of repairs to us less the salvage value is greater than the:\n\n- replacement cost \u2013 where a total loss gives you the right to a replacement vehicle under the policy; or\n- agreed value \u2013 if your vehicle is insured for an agreed value;\n- market value \u2013 if your vehicle is insured for market value; or\n- market value or $5,000, whichever is the lesser \u2013 if your vehicle is insured under the uninsured motorist\u2019s extension or Third Party Fire and Theft,\n\nunless otherwise notified to you by us in writing.\n\nvehicle usage means the use of your vehicle, which you have told us about. This is shown on your policy schedule. Vehicle usage may be either:\n\n- business, which means any vehicle which is used for income earning purposes;\n- rideshare means the use of your vehicle for the purposes of carrying passengers for a fee via an app or web based platform, but does not include the use of your vehicle as a taxi; or\n- private, which means any type of use other than business use or rideshare.\n\nwe, our or us means Allianz Australia Insurance Limited ABN 15 000 122 850 AFS Licence No. 234708.\n\nyou or your means the person(s) named in the policy schedule as the insured.\n\nyour vehicle means the registered vehicle shown on your policy schedule including:\n\n- its standard tools, modifications and accessories as supplied by the manufacturer; and\n- its fitted or non-standard extras, modifications and accessories which are shown on your policy schedule.\n\nText 086 12.21\n\n52"
+            ],
+            "reference_answer": "In the Allianz car policy document, \"total loss\" means that, in the opinion of Allianz, the vehicle, trailer, or caravan is so badly damaged that it would not be safe or it is uneconomical for them to repair. It also refers to a situation where the vehicle has not been found within 14 days of reporting its theft to Allianz.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum amount covered for replacing or recoding vehicle keys, locks, or barrels if they are stolen?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Keys, locks and barrels\n\nIf someone steals the keys to your vehicle during the policy period, and there is no other damage to your vehicle.\n\nWe pay this benefit on top of any excess that applies. For example, if your excess is $695 and the cost to replace your locks is $1,500, then we pay $805.\n\n**Covered**\n\n- Up to $1,000 in total to replace or recode your vehicle\u2019s keys, locks or barrels.\n\n**Conditions**\n\n- You must report the theft of your keys to the Police.\n\n New replacement vehicle\n\nIf we agree to pay your claim as a total loss, then you may choose to replace your vehicle with a new one if all of these apply:\n\n- You bought your vehicle as a new or demonstrator vehicle\n- The incident we cover happens within 2 years from when your vehicle was first registered\n- Your vehicle\u2019s tare weight is less than 2.5 tonnes.\n\n**Covered**\n\n- To replace your vehicle with a new one that has the same make, model, engine size, equipment level and paint type if it\u2019s available in Australia\n- To replace any of the following that apply to your vehicle:\n  - Modifications\n  - Options\n  - Accessories\n- The cost for 12 months registration and CTP insurance for the new vehicle.\n\n**Conditions**\n\n- Any credit provider noted on your current Certificate of Insurance must agree we can replace your vehicle\n- The new vehicle must be currently available in Australia\n- You need to give us the refund you get for your unused registration and any CTP insurance premium.\n\n----\n\nYour policy ends when we replace your vehicle with a new one. However, you can ask us to cover your replacement vehicle:\n\n- **Call** 132 132\n- **Visit** nrma.com.au\n- **Visit** a local branch"
+            ],
+            "reference_answer": "The maximum amount covered for replacing or recoding vehicle keys, locks, or barrels if they are stolen is $1,000.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the definition of \"flood\" in the Allianz car policy document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Definitions\n\nIn the policy, some words have special meanings wherever they are used in this PDS or in other documents making up the policy. These words and their meanings are outlined below:\n\n**accidental, accident** means a sudden, violent, external, unusual and identifiable specific event which happens unexpectedly and is unintended by the insured person.\n\n**agreed value** means the amount which we agree to insure your vehicle up to as shown in your policy schedule.\n\n**bodily injury** means a bodily injury caused solely by an accident while an insured person is driving, riding in, getting into or out of, loading or unloading, or goods being carried by or falling from, your vehicle or a substitute vehicle which occurs independently of any other cause or condition and where both the accident and the bodily injury occur during the period of insurance.\n\n**declined driver** means a driver noted in the policy schedule as a declined driver who is not insured under your policy.\n\n**excess** means the relevant excess amount(s) shown in the policy schedule which you must pay as a contribution to your claim under your policy.\n\n**family** means:\n\n- your spouse, your partner or your de facto who lives with you;\n- your parents or parents-in-law who live with you;\n- your children and children of your spouse, partner or de facto (not being your children) who live with you;\n- your brothers or sisters who live with you.\n\n**flood** means the covering of normally dry land by water that has escaped or been released from the natural normal confines of any of the following:\n\na) a lake (whether or not it has been altered or modified);\n\nb) a river (whether or not it has been altered or modified);\n\nc) a creek (whether or not it has been altered or modified);\n\nd) another natural watercourse (whether or not it has been altered or modified);\n\ne) a reservoir;\n\nf) a canal;\n\ng) a dam."
+            ],
+            "reference_answer": "The definition of \"flood\" in the Allianz car policy document is the covering of normally dry land by water that has escaped or been released from the natural normal confines of any of the following:\n\na) a lake (whether or not it has been altered or modified);\n\nb) a river (whether or not it has been altered or modified);\n\nc) a creek (whether or not it has been altered or modified);\n\nd) another natural watercourse (whether or not it has been altered or modified);\n\ne) a reservoir;\n\nf) a canal;\n\ng) a dam.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What optional benefits can be added to the Allianz car insurance policy as mentioned in the document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Optional benefits you can add"
+            ],
+            "reference_answer": "The document \"allianz-car-pds-policy.pdf\" does not provide specific details about the optional benefits that can be added to the Allianz car insurance policy.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What phone number should you call to make a claim if you have Comprehensive Plus Insurance with NRMA?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Claims and what we pay\n\nThis section provides information about our claims process and what we pay when you make a claim for loss or damage to your vehicle. It also includes some examples of how we pay claims, including liability claims. For further information about what we pay when you make a liability claim, please see Section 6.\n\n----\n\nWhen you need to make a claim, we want to help you as much as we can. We\u2019re available 24 hours a day, 7 days a week:\n\n- \ud83c\udf10 nrma.com.au\n- \ud83d\udcde 1300 654 903 \u2013 if you have Comprehensive Plus Insurance\n- \ud83d\udcde 131 123 \u2013 all other policies"
+            ],
+            "reference_answer": "If you have Comprehensive Plus Insurance with NRMA, you should call 1300 654 903 to make a claim.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum daily rental or loan charge covered under the \"Staying mobile following an accident\" benefit?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Optional benefits\n\nAny optional benefits you have been provided with will be shown on your policy schedule and will be automatically included with any renewal offer we make unless you contact us and ask us to remove these optional benefits at renewal.\n\nIn order to be sure that you are covered under these optional benefits you should always contact us for approval before you incur expenses you wish to claim. If you do not, we will pay for expenses incurred up to the amount we would have authorised had you asked us first.\n\n## Protected NCB\n\nWhen the policy schedule shows that \u201cProtected no claim bonus\u201d applies, we will not reduce your current no claim bonus entitlement for the first claim in any one period of insurance:\n\n- that is an at-fault claim; or\n- that is a not at-fault claim where:\n  - you are unable to provide us with the responsible party\u2019s name, address and vehicle registration number or any other information that would reasonably allow us to identify the person so that we can exercise our rights of recovery; or\n  - it is made due to any storm, naturally occurring event or a collision with an animal; or\n- where we are unable to recoup the expenses we incurred in providing cover for any accidental loss or damage to your vehicle or in covering any of your legal liability costs after a claimable event.\n\n## Staying mobile following an accident\n\nWhen the policy schedule shows that \u201cStaying mobile following an accident\u201d applies and we accept a claim for accidental damage to your vehicle (other than damage as a result of a not at fault collision as outlined in the \u201cStaying mobile following a not at fault collision\u201d benefit above), we will:\n\n- provide you with a rental or loan car; or\n- if a rental or loan car is not available, pay you a daily travel allowance of $50.\n\nThis benefit or daily travel allowance will be provided from:\n\n- the date repairs to your vehicle are authorised; or\n- the date your vehicle is made available for repairs to commence,\n\nwhichever is the later.\n\nThe maximum daily rental or loan charge we will pay is $100."
+            ],
+            "reference_answer": "The maximum daily rental or loan charge covered under the \"Staying mobile following an accident\" benefit is $100.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum amount reimbursed for any excess or security bond under the rental or loan car agreement?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Rental or Loan Car Benefit\n\nWe will provide the rental or loan car or daily travel allowance benefit for a maximum of 30 days or until:\n\n- the repairs have been completed; or\n- we settle your claim by paying you the agreed value or market value or replace the vehicle after a total loss,\n\nwhichever happens first.\n\nWe will extend your rental car or daily travel allowance period to the extent that we caused or contributed to the delay in repairing your vehicle.\n\nAdditionally, as part of this benefit, we will reimburse you up to $3,000 in total for any excess or security bond you have to pay under your rental or loan car agreement because there is accidental loss of or damage to the rental or loan car or because it causes some loss or damage.\n\nWe will arrange a rental car for you. If you arrange your own rental car without our consent, we are not obliged to pay for the rental car you arranged.\n\nWe will not pay for:\n\n- the cost of fuel used while driving the rental or loan car; or\n- any accidental loss of or damage to the rental or loan car.\n\n# Tools of Trade\n\nWhen the policy schedule shows that the \u201cTools of trade\u201d option applies and we accept a claim for accidental loss of (including theft) or accidental damage to your vehicle under the policy, we will also cover accidental loss of (including theft) or accidental damage to tools of trade, trade stock and materials.\n\nThis option only applies:\n\n- if the tools of trade, trade stock or materials are stolen via forcible and violent entry to your securely locked vehicle or tool box permanently fixed to your vehicle; or\n- if the tools of trade, trade stock or materials are damaged as a result of a motor vehicle collision.\n\nThe maximum we will pay is $3,000 for any one incident."
+            ],
+            "reference_answer": "The maximum amount reimbursed for any excess or security bond under the rental or loan car agreement is $3,000 in total.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What conditions must be met for a claim to be paid if the vehicle was driven by an unlicensed driver?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# When we will not pay your claim\n\nYou are not covered and we will not pay any claim under the policy for loss, damage, liability, costs or expenses directly or indirectly caused by, arising from or in any way connected with:\n\n## An unlicensed driver\n\nYour vehicle being driven by or in charge of someone unlicensed (unless a learner driver accompanied by the holder of a full unrestricted Australian drivers licence), or not complying with the conditions of their licence or learners permit (as applicable). We will pay a claim for you but not the driver or person in charge of your vehicle if you can prove to us that:\n\n- you were not the driver of the vehicle when the incident leading to the claim occurred; and\n- you did not or could not reasonably have been expected to know that the driver was unlicensed, or not complying with the condition of their licence or learners permit.\n\n## A declined driver\n\nYour vehicle being driven by a person shown on the policy schedule as a declined driver.\n\n## A driver under the influence\n\nYour vehicle being driven by you, or any other person:\n\n- who was under the influence of any drug or intoxicating alcohol;\n- who, as a result of the accident, is convicted of driving under the influence of any drug or intoxicating alcohol;\n- who had a percentage of alcohol in their breath or blood in excess of the percentage permitted by law in the State or Territory where the accident occurred; or\n- who refused to submit to any test to determine the level of alcohol or drugs in the breath or blood at the time of the accident when reasonably requested by the police.\n\nWe will pay a claim for you, but not the driver or person in charge of your vehicle, if you can prove to us that:\n\n- you were not the driver of the vehicle when the incident leading to the claim occurred; and\n- you had no reason to suspect that the driver was affected by alcohol or any drug."
+            ],
+            "reference_answer": "For a claim to be paid if the vehicle was driven by an unlicensed driver, the following conditions must be met:\n\n1. You were not the driver of the vehicle when the incident leading to the claim occurred.\n2. You did not or could not reasonably have been expected to know that the driver was unlicensed, or not complying with the conditions of their licence or learner's permit.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum amount NRMA will reimburse for emergency repairs to your vehicle?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Emergency repairs\n\nIf an incident we cover causes loss or damage to your vehicle and you arrange emergency repairs to your vehicle so you can get back on the road safely.\n\nFor example, someone tries to steal your car and damages your lock and ignition barrel. To secure your vehicle and make it safe to drive, you arrange for the lock to be fixed straight away.\n\n**Covered**\n\n- We will reimburse you up to $800 in total for emergency repairs to your vehicle.\n\n**Not covered**\n\n- Non-emergency repairs.\n\n**Conditions**\n\n- We will determine what is an emergency repair.\n- The emergency repairs must be made to keep your vehicle secure or to get you back on the road safely.\n- You must pay for the emergency repairs up front and provide us with the tax invoice, unless we agree otherwise.\n- The emergency repairs must be directly related to the incident you are claiming for.\n\n----\n\n**Emergency repairs are repairs you arrange to make your vehicle secure or get you back on the road safely**\n\n----\n\n# Emergency transport and accommodation\n\nIf your vehicle is damaged and cannot be driven or used as a result of an incident we have agreed to cover under \u2018Loss or damage to your vehicle\u2019 that occurs more than 100 kilometres from your home.\n\nWe pay this benefit on top of your market value.\n\n**Covered**\n\n- Transportation for you, your passengers and your domestic pets to your home or, if we agree, to another destination.\n- Temporary accommodation for you, your passengers and your domestic pets covering the room rate only.\n- Transportation of your vehicle from:\n  - The place your vehicle is repaired to your home, or\n  - The location of the incident to a repairer near your home.\n\nWe will cover you up to a maximum of $750.\n\n**Not covered**\n\n- The costs of transporting any vehicle or other item being towed by your vehicle.\n\n**Conditions**\n\n- We must agree to the costs before they are incurred."
+            ],
+            "reference_answer": "The maximum amount NRMA will reimburse for emergency repairs to your vehicle is $800.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What types of insurance coverage options are compared in the document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Comparison of insurance cover options including Comprehensive Plus Insurance, Comprehensive Insurance, Third Party Fire & Theft Insurance, and Third Party Property Damage Insurance, detailing coverage for loss or damage to the vehicle, benefits such as emergency repairs and transport, hire car options, and coverage for personal items and storage costs.,\nwith the following table title:\nInsurance Cover Comparison,\nwith the following columns:\n- Your insurance cover: None\n- Comprehensive Plus Insurance: None\n- Comprehensive Insurance: None\n- Third Party Fire & Theft Insurance: None\n- Third Party Property Damage Insurance: None\n"
+            ],
+            "reference_answer": "The document compares the following types of insurance coverage options: Comprehensive Plus Insurance, Comprehensive Insurance, Third Party Fire & Theft Insurance, and Third Party Property Damage Insurance.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "Does the Comprehensive policy provide coverage for Third Party Property Damage?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Summary of insurance coverage for different types of claims,\nwith the following table title:\nInsurance Coverage Summary,\nwith the following columns:\n- Comprehensive: Indicates if the coverage is provided under the Comprehensive policy\n- Third Party Property Damage: Indicates if the coverage is provided under the Third Party Property Damage policy\n- Third Party Fire & Theft: Indicates if the coverage is provided under the Third Party Fire & Theft policy\n"
+            ],
+            "reference_answer": "The context information does not explicitly state whether the Comprehensive policy provides coverage for Third Party Property Damage. It only indicates that there are separate columns for Comprehensive and Third Party Property Damage, suggesting they are distinct types of coverage. Therefore, based on the provided information, it cannot be determined if the Comprehensive policy includes coverage for Third Party Property Damage.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What types of vehicles can be insured under Comprehensive Insurance or Third Party Property Damage Insurance?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Motor Insurance at a glance \u2013 quick summary\n\nHere\u2019s a summary of the key details about Motor Insurance. In this Product Disclosure Statement and Policy Booklet (PDS), we set out the full details about your cover and any limits, exclusions and conditions that apply.\n\n Who we cover\n\n**Under your policy, we cover:**\n\n- you\n- anyone who has your permission to drive your vehicle\n\n Type of insurance\n\n**You can choose from these 4 types of insurance**\n\n- Comprehensive Plus Insurance \u2013 our top cover\n- Comprehensive Insurance \u2013 our standard cover\n- Third Party Fire & Theft Insurance \u2013 our basic cover with some extras\n- Third Party Property Damage Insurance \u2013 our basic cover\n\n What we insure\n\n**Your vehicle and you**\n\n- we insure your vehicle for an agreed value or market value as shown on your current Certificate of Insurance and including:\n  - any standard equipment that comes with it, plus\n  - any modifications, options or accessories that are attached to it\n- we insure you for claims that are made against you where the use of your vehicle causes loss or damage to someone else\u2019s property\n\n**The types of vehicles we insure include:**\n\n- cars\n- utes\n- motorcycles \u2013 which include scooters (you can only insure motorcycles under Comprehensive Insurance or Third Party Property Damage Insurance)\n- 4WDs\n- vans"
+            ],
+            "reference_answer": "Under Comprehensive Insurance or Third Party Property Damage Insurance, the types of vehicles that can be insured include cars, utes, motorcycles (including scooters), 4WDs, and vans.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum amount payable for loss or damage to accessories, artwork, or signwriting forming a permanent part of the vehicle at the time of a covered accident?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Accessories, Signwriting and Artwork\n\nWe will pay for loss or damage to accessories, artwork or signwriting forming a permanent part of your vehicle at the time of the covered accident.\n\nThe most we will pay is up to 5% of your vehicle\u2019s market value or $2,000 combined for any one incident, whichever is the lesser amount, unless they are otherwise separately listed on your policy schedule in which case this benefit will not apply.\n\n Towing\n\nWe will pay the reasonable cost of protection, removal and towing of your vehicle after a covered accident to the nearest repairer, place of safety or any other place which we agree to.\n\n Trailer and Caravan Cover\n\nWe will pay for accidental loss of or accidental damage to any trailer or caravan which was attached to your vehicle at the time of the covered accident.\n\nWe will pay the lesser of $2,000 or the market value of the trailer or caravan for any one incident.\n\nWe will not pay for property being carried in or on the trailer or caravan.\n\n Transportation Costs\n\nIf your vehicle cannot be safely driven home after a covered accident we will reimburse you for the cost of:\n\n- travel necessary to return you, your spouse, your de facto or dependent children to your home; or\n- transportation for you to collect your vehicle when it has been repaired.\n\nThe maximum we will pay for any one incident is $500."
+            ],
+            "reference_answer": "The maximum amount payable for loss or damage to accessories, artwork, or signwriting forming a permanent part of the vehicle at the time of a covered accident is the lesser of 5% of the vehicle\u2019s market value or $2,000, unless they are otherwise separately listed on the policy schedule.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "Is the feature included in the Comprehensive coverage according to the Allianz car policy document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Summary of features, options, and exclusions for different insurance coverages,\nwith the following table title:\nInsurance Coverages Features Summary,\nwith the following columns:\n- Comprehensive: Indicates whether the feature is included in the Comprehensive coverage\n- Third Party Property Damage: Indicates whether the feature is included in the Third Party Property Damage coverage\n- Third Party Fire & Theft: Indicates whether the feature is included in the Third Party Fire & Theft coverage\n"
+            ],
+            "reference_answer": "The context information provided does not specify whether a particular feature is included in the Comprehensive coverage according to the Allianz car policy document. It only describes the structure of the document and the types of coverage available. To determine if a specific feature is included, you would need to refer to the actual content of the document.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What are the conditions for permanently covering a replacement vehicle under the temporary cover policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Temporary cover\n\nIf you sell or give away your vehicle and replace it with another one during the policy period, then we provide temporary cover under your policy for your replacement vehicle.\n\n Covered\n\n- Temporary cover for your replacement vehicle on the same terms that are set out in your policy for 14 days from when you sold or gave away your vehicle.\n\n Conditions\n\n- We cover your replacement vehicle permanently if:\n  - You ask us to cover it within the 14 day temporary cover period\n  - You give us full details for the vehicle\n  - We agree to insure it, and\n  - You pay us any additional premium.\n\n Towing\n\nIf we pay your claim under \u2018Crash with at fault driver\u2019 \u2014 see page 50 \u2014 and your vehicle needed to be towed because it was not drivable or unsafe to drive.\n\n Covered\n\n- The reasonable cost to tow your vehicle from where the incident happened to whichever place we decide is closer:\n  - A repairer or other place we recommend, or\n  - A safe place.\n\n Conditions\n\n- We only pay for one tow. If your vehicle needs to be towed more than once, we decide which tow to pay for.\n\n----\n\n5 Third Party Property Damage Insurance"
+            ],
+            "reference_answer": "The conditions for permanently covering a replacement vehicle under the temporary cover policy are as follows:\n\n1. You must ask the insurer to cover the replacement vehicle within the 14-day temporary cover period.\n2. You must provide full details of the replacement vehicle.\n3. The insurer must agree to insure the replacement vehicle.\n4. You must pay any additional premium required by the insurer.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What specific information is missing from the document \"nrma-car-pds-policy.pdf\"?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "NO_CONTENT_HERE"
+            ],
+            "reference_answer": "The document \"nrma-car-pds-policy.pdf\" does not contain any specific information as it is indicated by \"NO_CONTENT_HERE.\"",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What happens if the additional premium required for a policy change is less than $15?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Changes to your policy\n\nThis section describes the changes that you or we can make to your policy.\n\n## Additional premium or refund less than $15\n\nWhen a change is made to your policy, you may need to pay us an additional premium or we may need to refund part of your premium.\n\nIf the additional premium we need to charge you is less than $15, then we\u2019ll waive it \u2014 that is, you don\u2019t need to pay it. However, if the amount we need to refund is less than $15, then we\u2019ll donate it to charity.\n\n## Changes you can make\n\nYou may need to make a change to your policy or decide to cancel it.\n\nTo make a change to your policy or to cancel it:\n\n- **Call**  \n  132 132\n\n- **Visit**  \n  nrma.com.au\n\n- **Visit**  \n  a local branch\n\nIf we need to give you a refund, then we will only refund any unused premium back to the start date of your current policy period. To do that, you may need to give us any proof we ask for.\n\nFor example, 7 months ago you paid out the finance arrangement for your vehicle. However, you forgot to tell us when you renewed your policy 3 months ago. We will refund any extra premium that may have applied for the last 3 months \u2014 that is, back to the start date of your current policy period.\n\n## You change your policy\n\nYou may want to make certain changes to your policy. This may include adding options to increase your cover, increasing your basic excess so you pay a lower premium or replacing your vehicle with a new one.\n\nAn additional premium may apply to the change. You are required to pay the additional premium at the time the changes are made. If we make the change before you pay any additional premium, then you must pay the additional premium by the date we tell you it is due or we may remove the change from your policy. If we cannot remove the change and maintain cover, we may cancel your policy.\n\nIf we agree to make the change, we will:\n\n- issue you with a current Certificate of Insurance\n- refund any amount we owe you."
+            ],
+            "reference_answer": "If the additional premium required for a policy change is less than $15, it will be waived, meaning you do not need to pay it.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What does the legal liability cover entail in the Allianz car policy as described in the document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Legal liability cover"
+            ],
+            "reference_answer": "The legal liability cover in the Allianz car policy entails protection against claims for compensation if you are legally liable for causing damage to someone else's property or for causing injury or death to another person in an accident involving your vehicle. This cover typically includes legal costs and expenses incurred in defending such claims, subject to the terms and conditions outlined in the policy document.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What are the components included in the agreed value for insuring a vehicle according to the NRMA car policy document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Limits, exclusions and conditions\n\nLimits, exclusions and conditions apply to the cover you have chosen:\n\n- Throughout this PDS, we set out any specific limits, exclusions and conditions with the cover they apply to.\n- On pages 55 \u2013 59, we set out the general exclusions that apply to all covers and benefits under your policy, and\n- On pages 60 \u2013 62, we set out your responsibilities when you are insured with us.\n\n## Special conditions\n\nWe may apply special conditions on your policy that may exclude, restrict or extend cover for a person or a particular matter at the time that you purchase the policy. For example, we may not cover you for some incidents like a bushfire, storm or flood if they cause loss or damage during a specific period which is also known as an embargo period.\n\nYour current Certificate of Insurance shows any special conditions that apply to your policy, including the period of any applicable embargo period.\n\nIn addition, we may apply special conditions during your policy that limit your ability to make changes to coverage, sum insured and your policy terms.\n\n# Value that applies to your vehicle\n\nDepending on the type of insurance you\u2019ve chosen, we may insure your vehicle for an agreed value or a market value \u2014 see Table 1.1 on page 11.\n\nThe value that applies to your vehicle is shown on your current Certificate of Insurance.\n\n## Agreed value\n\nThe agreed value is the amount we agree to insure your vehicle for. It includes:\n\n- Any modifications, options or accessories that are attached to your vehicle\n- GST\n- Registration and any CTP insurance\n- Other on-road costs.\n\nYou should take these into account when you decide on your agreed value.\n\nIt does not include any allowance for dealer profit, warranty costs, any stamp duty or transfer fees.\n\n## Market value\n\nIf we insure your vehicle for market value, then we assess its market value when an incident happens."
+            ],
+            "reference_answer": "According to the NRMA car policy document, the agreed value for insuring a vehicle includes the following components:\n\n- Any modifications, options, or accessories that are attached to the vehicle\n- GST (Goods and Services Tax)\n- Registration and any CTP (Compulsory Third Party) insurance\n- Other on-road costs\n\nIt does not include any allowance for dealer profit, warranty costs, any stamp duty, or transfer fees.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What are the components included in the agreed value for insuring a vehicle according to the NRMA car policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Limits, exclusions and conditions\n\nLimits, exclusions and conditions apply to the cover you have chosen:\n\n- Throughout this PDS, we set out any specific limits, exclusions and conditions with the cover they apply to.\n- On pages 55 \u2013 59, we set out the general exclusions that apply to all covers and benefits under your policy, and\n- On pages 60 \u2013 62, we set out your responsibilities when you are insured with us.\n\n Special conditions\n\nWe may apply special conditions on your policy that may exclude, restrict or extend cover for a person or a particular matter at the time that you purchase the policy. For example, we may not cover you for some incidents like a bushfire, storm or flood if they cause loss or damage during a specific period which is also known as an embargo period.\n\nYour current Certificate of Insurance shows any special conditions that apply to your policy, including the period of any applicable embargo period.\n\nIn addition, we may apply special conditions during your policy that limit your ability to make changes to coverage, sum insured and your policy terms.\n\n Value that applies to your vehicle\n\nDepending on the type of insurance you\u2019ve chosen, we may insure your vehicle for an agreed value or a market value \u2014 see Table 1.1 on page 11.\n\nThe value that applies to your vehicle is shown on your current Certificate of Insurance.\n\n Agreed value\n\nThe agreed value is the amount we agree to insure your vehicle for. It includes:\n\n- Any modifications, options or accessories that are attached to your vehicle\n- GST\n- Registration and any CTP insurance\n- Other on-road costs.\n\nYou should take these into account when you decide on your agreed value.\n\nIt does not include any allowance for dealer profit, warranty costs, any stamp duty or transfer fees.\n\n Market value\n\nIf we insure your vehicle for market value, then we assess its market value when an incident happens."
+            ],
+            "reference_answer": "According to the NRMA car policy, the agreed value for insuring a vehicle includes the following components:\n\n- Any modifications, options, or accessories that are attached to the vehicle\n- GST (Goods and Services Tax)\n- Registration and any CTP (Compulsory Third Party) insurance\n- Other on-road costs\n\nIt does not include any allowance for dealer profit, warranty costs, any stamp duty, or transfer fees.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the basic excess amount for a Third Party Property Damage Insurance policy according to the document?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Table showing details related to Third Party Property Damage Insurance policy.,\nwith the following table title:\nPolicy Details,\nwith the following columns:\n- Policy type: Type of insurance policy\n- Market value (assessed at time of incident): Market value of the property at the time of the incident\n- Basic excess: Basic excess amount for the policy\n"
+            ],
+            "reference_answer": "The document does not provide a specific basic excess amount for a Third Party Property Damage Insurance policy.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum amount covered for a hire car after theft or attempted theft?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Your insurance cover\n\n## Loss or damage to your vehicle\n\n| Coverage                              | Details                                                                 | Page |\n|---------------------------------------|-------------------------------------------------------------------------|------|\n| Loss or damage to your vehicle        | The market value up to $10,000 if a fire, theft or attempted theft causes loss or damage to your vehicle | 42   |\n| Any NRMA Partner Repairer             | We will arrange for an NRMA Partner Repairer to fix your vehicle        | 42   |\n\n## Other benefits\n\n| Benefit                               | Details                                                                 | Page |\n|---------------------------------------|-------------------------------------------------------------------------|------|\n| Crash with at fault driver            | Up to $5,000                                                            | 43   |\n| Emergency repairs                     | Up to $800                                                              | 44   |\n| Emergency transport and accommodation | Up to $750                                                              | 44   |\n| Hire car after theft or attempted theft | Up to $75 a day for up to 21 days for a hire car and up to $2,000 for any hire car excess and bond | 45   |\n| Storage costs                         | The reasonable costs to store your vehicle                              | 46   |\n| Temporary cover                       | 14 days cover when you change vehicles                                  | 46   |\n| Towing                                | The reasonable cost for one tow                                         | 47   |\n\n## Liability cover\n\n| Coverage       | Details            | Page |\n|----------------|--------------------|------|\n| Liability cover| Up to $20 million  | 53   |"
+            ],
+            "reference_answer": "The maximum amount covered for a hire car after theft or attempted theft is up to $75 a day for up to 21 days, and up to $2,000 for any hire car excess and bond.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What happens if you don't update your contact details after they change?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "You change your contact details\n\nIf you change your contact details \u2013 for example, your mailing or email address\n\n- then you must tell us as soon as you reasonably can. If you don\u2019t, then we will consider that you received your policy documents (that we sent to your old address) even though you didn\u2019t.\n\nWe will continue to send your policy documents to your nominated mailing or email address until you tell us to update your contact details.\n\n You want to cancel your policy\n\nYou may decide to cancel your policy because you sell your vehicle or you no longer want your policy.\n\nIf you tell us to cancel your policy and you:\n\n- **paid an annual premium**, we will refund your unused premium after we deduct:\n  - an amount that covers the period that you have been insured for, and\n  - a cancellation fee of $30 (plus GST and any other government charges that apply)\n\n- **pay your premium by monthly instalments**, we will deduct:\n  - any unpaid monthly instalments that are due, and\n  - a cancellation fee of $30 (plus GST and any other government charges that apply)\n\nYou authorise us to deduct the above amounts by direct debit from the account or credit card you previously nominated for monthly instalment deductions. As we are only allowed to deduct the agreed amount you previously authorised, we may need to collect the total amount you owe us over a few months.\n\nIf you tell us to cancel your policy within the 21 day cooling-off period, we\u2019ll give you a full refund \u2013 see page 13.\n\n----\n\n 9 Other information you need to know\n\n> If you sell or give away your vehicle and replace it with another vehicle, then we may cover the replacement vehicle under \u2018Temporary cover\u2019"
+            ],
+            "reference_answer": "If you don't update your contact details after they change, NRMA will consider that you received your policy documents sent to your old address, even though you didn't. They will continue to send your policy documents to your nominated mailing or email address until you inform them to update your contact details.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What incidents are covered under the NRMA car policy for loss or damage to your vehicle?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "# Loss or damage to your vehicle\n\nWe cover your vehicle when the incidents set out in this section happen.\n\n## Loss or damage to your vehicle\n\nIf an incident we cover happens during the policy period and causes loss or damage to your vehicle.\n\n### Covered\n\n- Up to the agreed value or market value, depending on the cover you have chosen, that applies to your vehicle if any of these incidents cause loss or damage to it:\n\n  - accidental damage\n  - flood\n  - collision or crash\n  - storm\n  - earthquake\n  - theft or attempted theft\n  - explosion\n  - tsunami\n  - fire\n  - vandalism or a malicious act\n\n### Conditions\n\n- We decide whether to:\n  - repair your vehicle\n  - pay you the reasonable cost of repairs as determined by us, or\n  - pay you the agreed value or market value, depending on the cover you have chosen, that applies to your vehicle.\n\n  Our choice will have regard to the circumstances of your claim and consider any preference you may have.\n\nFor more details about how we settle your claim, see Section 8.\n\n## Any NRMA Partner Repairer\n\nYour policy automatically includes access to our extensive partner repairer network. We have partnered with trusted businesses to deliver quality, safe repairs and have you back on the road as soon as possible.\n\nHowever, you may choose your own repairer to fix your vehicle if:\n\n- you have added the \u2018Any Repairer\u2019 option \u2013 see page 39, or\n- your vehicle is a motorcycle."
+            ],
+            "reference_answer": "The NRMA car policy covers the following incidents for loss or damage to your vehicle:\n\n- Accidental damage\n- Flood\n- Collision or crash\n- Storm\n- Earthquake\n- Theft or attempted theft\n- Explosion\n- Tsunami\n- Fire\n- Vandalism or a malicious act",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What are the exclusions related to communicable diseases in the NRMA car policy?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "General exclusions and your responsibilities\n\n- Loss, damage, liability, claim, cost or expense directly or indirectly caused or contributed to by loss of use, reduction in functionality, repair, replacement, restoration or reproduction of any data including the value of any data\n- Any loss, damage or liability directly caused by a communicable disease or the threat or perceived threat of any communicable disease\n- Loss, damage or liability caused by or arising from any nuclear, radioactive, biological or chemical material, or the use, handling or transportation of such material\n- Seepage, pollution or contamination, or any loss, damage, liability, fines, penalties, punitive or exemplary damages caused by, arising from or in connection with any seepage, pollution or contamination\n- Loss or damage caused by or arising from your vehicle being legally seized, impounded, sold or destroyed\n- Loss or damage caused by or arising from a breach of contract.\n\n Sanctions\n\nWe will not be liable to provide any cover, pay any claim or provide any benefit under this policy (including any refund of premium), to the extent that such cover, claim, benefit or refund may contravene or expose us to any sanction, prohibition or restriction under United Nations resolutions or any trade or economic sanctions, laws or regulations of any country."
+            ],
+            "reference_answer": "The NRMA car policy excludes any loss, damage, or liability directly caused by a communicable disease or the threat or perceived threat of any communicable disease.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What specific information is missing from the document \"nrma-car-pds-policy.pdf\"?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "NO_CONTENT_HERE"
+            ],
+            "reference_answer": "The document \"nrma-car-pds-policy.pdf\" does not contain any specific information as it is indicated by \"NO_CONTENT_HERE.\"",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What specific information is missing from the document \"allianz-car-pds-policy.pdf\"?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "NO_CONTENT_HERE"
+            ],
+            "reference_answer": "The document \"allianz-car-pds-policy.pdf\" does not contain any specific information as it is indicated by \"NO_CONTENT_HERE.\"",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What information must you provide to make a claim under the 'Crash with at fault driver' benefit?",
+            "query_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Other benefits\n\nYour policy covers loss or damage that is caused by the use of your vehicle to someone else\u2019s property \u2014 see \u2018Liability cover\u2019 on pages 52 \u2013 54.\n\nWe may also provide other benefits that are set out in this section.\n\nYou can make a claim for other benefits when an incident we cover happens during the policy period and causes loss or damage to your vehicle and we agree to pay for that loss or damage.\n\nHowever, you can make a claim under \u2018Crash with at fault driver\u2019 in other situations. For example, if you have a crash with another vehicle and that driver is at fault and you can identify them and their vehicle, then we may pay up to $5,000 for the damage to your vehicle.\n\n Crash with at fault driver\n\nIf you have a crash with another vehicle during the policy period and the driver of that vehicle is at fault for the crash and you can identify them and their vehicle as set out below.\n\n Covered\n\n- up to $5,000 in total for the damage to your vehicle.\n\n Conditions\n\n- we are satisfied the crash was the other driver\u2019s fault\n- you must give us the:\n  - registration number of the other vehicle, and\n  - name and residential address of the other driver\n\nSee \u2018Determining fault in an incident\u2019 on page 78.\n\n- the cost of the damage to your vehicle is more than the basic excess that applies to your policy.\n\n> You don\u2019t need to pay any excess if you make a claim under this benefit\n\n----\n\n**Third Party Fire & Theft Insurance**"
+            ],
+            "reference_answer": "To make a claim under the 'Crash with at fault driver' benefit, you must provide the following information:\n\n1. The registration number of the other vehicle.\n2. The name and residential address of the other driver.",
+            "reference_answer_by": {
+                "model_name": "gpt-4o",
+                "type": "ai"
+            }
+        }
+    ]
+}

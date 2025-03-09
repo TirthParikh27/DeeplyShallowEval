@@ -1,18 +1,19 @@
 import os
+import asyncio
 import argparse
+from src.evaluation.ragas_evaluator import RAGASEvaluator
 from src.pipelines.agentic_pipeline import AgenticRAGPipeline
 from src.pipelines.standard_pipeline import StandardRAGPipeline
-from llama_index.llms.anthropic import Anthropic
-from llama_index.core import Settings
+from src.utils.utils import get_pdf_paths
 
 
-def main():
+def main_rag_cli():
 
     parser = argparse.ArgumentParser(description="Test the RAGPiepline")
     parser.add_argument(
         "--pdf_dir",
         type=str,
-        default="data/raw",
+        default="storage/raw",
         help="Directory containing PDF files",
     )
     parser.add_argument(
@@ -62,10 +63,6 @@ def main():
 
     print(f"Found {len(pdf_files)} PDF files")
 
-    if args.generator_llm_type == "anthropic":
-        llm = Anthropic(model="claude-3-5-sonnet-latest")
-        Settings.tokenizer = llm.tokenizer.encode
-
     # Initialize the pipeline
     if args.rag_pipeline_type == "standard":
         pipeline = StandardRAGPipeline(
@@ -94,9 +91,58 @@ def main():
         if question.lower() == "exit":
             break
 
-        response = pipeline.answer_question(question)
+        response = pipeline.query(question)
         print(f"\nAnswer: {response}")
 
 
+async def main_rag_evaluate():
+    from src.pipelines.standard_pipeline import StandardRAGPipeline
+    from src.evaluation.llama_evaluator import RAGEvaluator
+    from llama_index.llms.anthropic import Anthropic
+    from llama_index.llms.openai import OpenAI
+
+    # Load data source file paths
+    data_path = "storage/raw"
+    pdf_files = get_pdf_paths(data_path)
+
+    # Create LLM
+    # llm = Anthropic(model="claude-3-7-sonnet-latest", temperature=0.1)
+    llm = OpenAI(model="gpt-4o", temperature=0.1)
+
+    # Create two different index configurations (pipelines)
+    # Pipeline 1: Basic vector index with OpenAI LLM
+    pipeline_1 = StandardRAGPipeline(
+        embedder_type="huggingface",
+        embedder_model=None,
+        retriever_type="vector",
+        generator_llm_type="openai",
+    )
+
+    # Pipeline 2: Basic vector index with Mistral LLM
+    pipeline_2 = AgenticRAGPipeline(
+        embedder_type="huggingface",
+        embedder_model=None,
+        retriever_type="hybrid",
+        generator_llm_type="openai",
+    )
+
+    # Load the pipelines
+    print("Loading documents : ", pdf_files)
+    await pipeline_1.load_pipeline(pdf_files)
+    await pipeline_2.load_pipeline(pdf_files)
+    print("Pipeline loaded successfully")
+
+    # Evaluate the pipelines
+    print("Evaluating pipelines...")
+    # evaluator = RAGEvaluator(
+    #     pipeline1=pipeline_1, pipeline2=pipeline_2, llm=llm, embed_model="huggingface"
+    # )
+    evaluator = RAGASEvaluator(
+        pipeline1=pipeline_1, pipeline2=pipeline_2, llm=llm, embed_model="huggingface"
+    )
+    await evaluator.evaluate()
+
+
 if __name__ == "__main__":
-    main()
+    asyncio.run(main_rag_evaluate())
+    # main_rag_cli()

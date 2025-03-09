@@ -15,7 +15,7 @@ class RetrieverFactory:
     def create_retriever(
         retriever_type: str,
         embedding_model: BaseEmbedding,
-        similarity_top_k: int = 5,
+        similarity_top_k: int = 2,
     ) -> BaseRetriever:
         """
         Create a retriever instance based on the specified type.
