@@ -40,7 +40,7 @@ class EmbeddingFactory:
         provider = provider.lower()
 
         if provider == "openai":
-            default_model = "text-embedding-3-small"
+            default_model = "text-embedding-3-large"
             return OpenAIEmbedding(
                 model=model_name or default_model,
                 api_key=OPENAI_API_KEY,
