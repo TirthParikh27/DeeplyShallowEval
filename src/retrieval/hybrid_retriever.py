@@ -2,7 +2,7 @@
 Hybrid retriever implementation combining vector search and BM25.
 """
 
-from typing import List, Optional
+from typing import List
 from llama_index.retrievers.bm25 import BM25Retriever
 from llama_index.core.retrievers import (
     QueryFusionRetriever,
@@ -20,7 +20,7 @@ class HybridRetriever(BaseRetriever):
     def __init__(
         self,
         embedding_model: BaseEmbedding,
-        similarity_top_k: int = 5,
+        similarity_top_k: int = 2,
         persist_path: str = "./storage/bm25_retriever",
     ):
         """
@@ -72,30 +72,30 @@ class HybridRetriever(BaseRetriever):
     def retrieve(
         self,
         query: str,
-        top_k: Optional[int] = None,
+        first_page,
+        last_page,
     ) -> List[NodeWithScore]:
         """
-        Retrieve documents relevant to the query using hybrid approach.
+        Retrieve documents relevant to the query.
 
         Args:
             query: Query string.
-            top_k: Number of documents to retrieve (overrides default).
-            filters: Optional filters to apply to the retrieval.
+            first_page: Starting page number for retrieval.
+            last_page: Ending page number for retrieval.
 
         Returns:
-            List of relevant documents.
+            List of relevant documents with similarity scores.
         """
         if self._retriever is None:
-            raise ValueError("Index not initialized. Call index_nodes first.")
+            raise ValueError("Retriever not initialized. Call index_nodes first.")
 
-        # Set final top_k parameter
-        if top_k is not None:
-            self._retriever.similarity_top_k = top_k
-
-        # Use the fusion retriever to get combined results
+        # Retrieve nodes directly with the query string
         nodes_with_scores = self._retriever.retrieve(query)
 
-        return nodes_with_scores
+        # Apply pagination
+        start_idx = first_page
+        end_idx = min(last_page, len(nodes_with_scores))
+        return nodes_with_scores[start_idx:end_idx]
 
     def get_retriever(self) -> LlamaBaseRetriever:
         """

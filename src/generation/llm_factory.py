@@ -32,20 +32,20 @@ class LLMFactory:
         llm_type = llm_type.lower()
 
         if llm_type == "openai":
-            default_model = model or "gpt-4o"
+            default_model = model or "gpt-4o-mini"
             return OpenAI(
                 model=default_model,
                 temperature=temperature,
             )
 
         elif llm_type == "mistral":
-            default_model = model or "mistral-large-latest"
+            default_model = model or "mistral-small-latest"
             return MistralAI(
                 model=default_model,
                 temperature=temperature,
             )
         elif llm_type == "anthropic":
-            default_model = model or "claude-3-5-sonnet-latest"
+            default_model = model or "claude-3-5-haiku-latest"
 
             return Anthropic(
                 model=default_model,

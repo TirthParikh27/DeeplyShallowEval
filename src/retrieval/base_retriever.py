@@ -3,7 +3,7 @@ Base retriever interface for insurance policy documents.
 """
 
 from abc import ABC, abstractmethod
-from typing import List, Dict, Any, Optional
+from typing import List, Optional
 from llama_index.core.schema import NodeWithScore
 from llama_index.core.schema import Node
 from llama_index.core.retrievers import BaseRetriever as LlamaBaseRetriever
@@ -32,19 +32,17 @@ class BaseRetriever(ABC):
         """
 
     @abstractmethod
-    def retrieve(
-        self, query: str, top_k: int = 5, filters: Optional[Dict[str, Any]] = None
-    ) -> List[NodeWithScore]:
+    def retrieve(self, query: str, first_page, last_page) -> List[NodeWithScore]:
         """
         Retrieve documents relevant to the query.
 
         Args:
             query: Query string.
-            top_k: Number of documents to retrieve.
-            filters: Optional filters to apply to the retrieval.
+            first_page: Starting page number for retrieval.
+            last_page: Ending page number for retrieval.
 
         Returns:
-            List of relevant documents.
+            List of relevant documents with similarity scores.
         """
 
     @abstractmethod
