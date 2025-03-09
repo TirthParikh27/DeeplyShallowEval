@@ -17,9 +17,9 @@ from llama_index.core.schema import BaseNode, MetadataMode
 import nltk
 from tqdm import tqdm
 
-from src.embeddings.embedding_factory import EmbeddingFactory
-from src.pipelines.base_pipeline import BasePipeline
-from src.utils.utils import get_unique_sources
+from rag.embeddings.embedding_factory import EmbeddingFactory
+from rag.pipelines.base_pipeline import BasePipeline
+from rag.utils.utils import get_unique_sources
 import random
 
 # Download NLTK resources if needed

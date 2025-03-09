@@ -18,9 +18,9 @@ from ragas.llms import LlamaIndexLLMWrapper
 from llama_index.core.llms import LLM
 from llama_index.core.schema import BaseNode, Document
 
-from src.embeddings.embedding_factory import EmbeddingFactory
-from src.pipelines.base_pipeline import BasePipeline
-from src.utils.utils import get_unique_sources
+from rag.embeddings.embedding_factory import EmbeddingFactory
+from rag.pipelines.base_pipeline import BasePipeline
+from rag.utils.utils import get_unique_sources
 
 
 class RAGASEvaluator:
@@ -351,4 +351,4 @@ class RAGASEvaluator:
         print("\nGenerating visualizations...")
         self.visualize_results(output_file=output_file)
 
-        return summary
+        return summary.to_dict()

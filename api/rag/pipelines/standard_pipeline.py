@@ -1,24 +1,20 @@
+from typing import List, Optional
+import hashlib
+from config import LLAMA_API_KEY
+from rag.data.processor import MarkdownProcessor
+from rag.data.loader import PDFLoader
+from rag.embeddings.embedding_factory import EmbeddingFactory
+from rag.generation.llm_factory import LLMFactory
+from rag.pipelines.base_pipeline import BasePipeline
+from rag.retrieval.retriever_factory import RetrieverFactory
+from llama_index.core import Response
+from llama_index.core.query_engine import RetrieverQueryEngine
+from llama_index.core.schema import Document, BaseNode
 import os
 import pickle
-from typing import Any, List, Optional
-import hashlib
-
-from config import LLAMA_API_KEY
-from src.data.processor import MarkdownProcessor
-from src.data.loader import PDFLoader
-from src.embeddings.embedding_factory import EmbeddingFactory
-from src.generation.llm_factory import LLMFactory
-from src.pipelines.base_pipeline import BasePipeline
-from src.retrieval.retriever_factory import RetrieverFactory
-from llama_index.core.schema import Document, BaseNode
-from llama_index.core.tools import QueryEngineTool
-from llama_index.core.agent import ReActAgent
-from llama_index.core import Response
-from llama_index.core.response_synthesizers import ResponseMode
-from llama_index.core.query_engine import RetrieverQueryEngine
 
 
-class AgenticRAGPipeline(BasePipeline):
+class StandardRAGPipeline(BasePipeline):
     def __init__(
         self,
         embedder_type: str,
@@ -35,10 +31,7 @@ class AgenticRAGPipeline(BasePipeline):
         self.llm = LLMFactory.create_llm(generator_llm_type)
         self.documents = None
         self.nodes = None
-        self.query_engine = None
-        self.agent = None
-        self.tools = None
-        self.source_nodes = []
+        self.query_engine = None  # After loading the documents
 
     async def load_pipeline(
         self, file_paths: List[str], persist_path: str = "./storage"
@@ -54,6 +47,7 @@ class AgenticRAGPipeline(BasePipeline):
         print("Looking for : ", persisted_nodes_path)
         print("Looking for : ", persisted_docs_path)
 
+        # Check if persisted nodes exist
         if os.path.exists(persisted_nodes_path):
             # Load persisted documents
             with open(persisted_docs_path, "rb") as f:
@@ -65,7 +59,7 @@ class AgenticRAGPipeline(BasePipeline):
                 self.nodes = pickle.load(f)
             print(f"Loaded preprocessed nodes from {persisted_nodes_path}")
         else:
-            # Step 1 : Load documents
+            # Step 1: Load documents
             loader = PDFLoader(api_key=LLAMA_API_KEY)
             self.documents = await loader.load_documents(file_paths)
 
@@ -75,7 +69,7 @@ class AgenticRAGPipeline(BasePipeline):
                 pickle.dump(self.documents, f)
             print(f"Loaded documents and saved to {persisted_docs_path}")
 
-            # Step 2 : Process documents
+            # Step 2: Process documents
             self.nodes = await MarkdownProcessor(self.documents).parse_documents()
 
             # Store processed nodes
@@ -84,50 +78,20 @@ class AgenticRAGPipeline(BasePipeline):
                 pickle.dump(self.nodes, f)
             print(f"Processed documents and saved nodes to {persisted_nodes_path}")
 
-        # Step 3 : Index documents
+        # Step 3: Index documents
         self.retriever.index_nodes(self.nodes)
 
-        # Step 4 : Load generator
-        # CHANGE: Remove ResponseMode.CONTEXT_ONLY to allow full use of context
+        # Step 4: Load generator
         self.query_engine = RetrieverQueryEngine.from_args(
             retriever=self.retriever.get_retriever(),
-            response_mode=ResponseMode.CONTEXT_ONLY,
             llm=self.llm,
         )
 
-        # Step 5 : Create tools
-        self.tools = [
-            QueryEngineTool.from_defaults(
-                query_engine=self.query_engine,
-                name="vector_search_tool",
-                description="""Useful for querying information from documents.
-            Use a detailed plain text question as input to the tool.""",
-            )
-        ]
+    def query(self, question: str) -> Response:
+        return self.query_engine.query(question)
 
-        # Step 6 : Create Agent with improved context
-        self.agent = ReActAgent.from_tools(
-            tools=self.tools,
-            llm=self.llm,
-            context="""You are a precise research assistant answering questions from documents.
-            For each question:
-            1. First, always use the retrieve tool to get relevant information BEFORE attempting to reason about the answer
-            2. Only break complex questions into sub-queries if a direct retrieval doesn't yield sufficient information
-            3. Heavily rely on the exact information from retrieved content
-            4. Synthesize information faithfully without adding any information not present in the retrieved content
-            5. If you're unsure about any aspect, retrieve more information rather than making assumptions
-            Only use information from the provided tools to answer the question. If no relevant information is found, respond with 'No information found'.
-            Avoid making conclusions that aren't directly supported by the retrieved text.""",
-            verbose=True,
-            max_iterations=8,
-        )
-
-    def query(self, question) -> Response:
-        agent_response = self.agent.query(question)
-        return agent_response
-
-    def get_query_engine(self) -> Any:
-        return self.agent
+    def get_query_engine(self) -> RetrieverQueryEngine:
+        return self.query_engine
 
     def get_documents(self) -> List[Document]:
         return self.documents
