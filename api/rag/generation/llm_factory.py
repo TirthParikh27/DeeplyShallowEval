@@ -32,7 +32,7 @@ class LLMFactory:
         llm_type = llm_type.lower()
 
         if llm_type == "openai":
-            default_model = model or "gpt-4o-mini"
+            default_model = model or "gpt-4o"
             return OpenAI(
                 model=default_model,
                 temperature=temperature,
@@ -45,7 +45,7 @@ class LLMFactory:
                 temperature=temperature,
             )
         elif llm_type == "anthropic":
-            default_model = model or "claude-3-5-haiku-latest"
+            default_model = model or "claude-3-5-sonnet-latest"
 
             return Anthropic(
                 model=default_model,
