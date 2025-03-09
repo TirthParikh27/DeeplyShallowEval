@@ -5,8 +5,8 @@ A modular framework for creating, comparing, and evaluating RAG (Retrieval-Augme
 ## Features
 
 - **Modular Pipeline Construction**: Easily build and configure RAG pipelines with different components
-- **Multiple Evaluation Frameworks**: Support for RAGAS and LlamaIndex evaluation methodologies
-- **Multiple LLM Providers**: Compatible with OpenAI and Anthropic models
+- **Evaluation Framework**: Support for RAGAS evealutation framework
+- **Multiple LLM Providers**: Compatible with OpenAI , Anthropic ad Mistral models
 - **PDF Document Processing**: Built-in support for processing PDF documents
 - **API-First Design**: Simple REST API to create and evaluate pipelines
 - **Comparative Analysis**: Benchmark two different RAG pipelines against each other
@@ -111,7 +111,7 @@ The API will be available at `http://localhost:8000`.
 
 #### POST /evaluation/eval_rag
 
-Evaluate and compare two RAG pipelines.
+Create, evaluate and compare two RAG pipelines.
 
 Example request:
 
@@ -141,51 +141,51 @@ Example request:
 
 ```
 DeeplyShallowEval/
-├── api/
-│   ├── main.py           # FastAPI application
-│   ├── config.py         # Configuration settings
-│   ├── routers/
-│   │   └── eval_router.py # API routes for evaluation
-├── rag/
-│   ├── evaluation/
-│   │   ├── ragas_evaluator.py  # RAGAS evaluation implementation
-│   │   └── llama_evaluator.py  # LlamaIndex evaluation implementation
-│   ├── utils/
-│   │   └── utils.py     # Utility functions for RAG
-├── schemas/
-│   └── eval_schemas.py  # Pydantic models for API
-├── storage/
-│   └── raw/            # Storage for PDF documents
-├── utils/
-│   └── utils.py        # General utility functions
-├── .env                # Environment variables
-└── requirements.txt    # Python dependencies
+├── api/                          # API layer
+│   ├── rag/                      # RAG implementation
+│   │   ├── data/                 # Data processor and parser for RAG
+│   │   ├── embeddings/           # Vector embedding models
+│   │   ├── evaluation/           # Evaluation tools and metrics
+│   │   ├── generation/           # Text generation components
+│   │   ├── pipelines/            # RAG pipelines (standard , agentic)
+│   │   ├── retrieval/            # Retrieval components
+│   │   ├── utils/                # Utility functions for RAG
+│   ├── routers/                  # API route definitions
+│   ├── schemas/                  # Data schemas
+│   ├── utils/                    # General utility functions
+│   ├── config.py                 # Configuration settings
+│   └── main.py                   # API entry point
+├── storage/                      # Persistant Data storage (pdfs in ./storage/raw)
+├── .env                          # Environment variables
+├── docker-compose.yml            # Docker Compose configuration
+├── Dockerfile                    # Docker configuration
 ```
 
 ## Evaluation Metrics
 
 DeeplyShallowEval supports various evaluation metrics:
 
-### RAGAS Metrics
+### Metrics
 
 - Answer Relevancy
 - Faithfulness
 - Context Precision
 - Context Recall
-
-### LlamaIndex Metrics
-
-- Correctness
-- Relevance
-- Coherence
-- Groundedness
+- Hallucination
+- Context Relevancy (f-score)
 
 ## Configuration Options
 
+### Evaluator LLMs
+
+- OpenAI: gpt-4o
+- Anthropic: claude-3.7-sonnet
+
 ### LLM Providers
 
-- OpenAI: gpt-3.5-turbo, gpt-4
-- Anthropic: claude-2, claude-instant
+- OpenAI: gpt4o-mini
+- Anthropic: claude-3.5-haiku
+- Mistral: mistral-small-latest
 
 ### Embedding Models
 
@@ -196,7 +196,7 @@ DeeplyShallowEval supports various evaluation metrics:
 ### Retrieval Methods
 
 - Vector Store
-- Hybrid Search
+- Hybrid Search (Vector + BM25)
 
 ## Contributing
 
@@ -208,4 +208,4 @@ DeeplyShallowEval supports various evaluation metrics:
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Apache License Version 2.0 - see the LICENSE file for details.
