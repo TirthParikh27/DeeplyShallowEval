@@ -42,12 +42,14 @@ A modular framework for creating, comparing, and evaluating RAG (Retrieval-Augme
    pip install -r requirements.txt
    ```
 
-4. Set up environment variables by creating a `.env` file:
+4. Set up environment variables by creating a `.env` file in the root directory:
 
    ```
-   OPENAI_API_KEY=your_openai_key
-   LLAMA_CLOUD_API_KEY=your_llama_key
-   COHERE_API_KEY=your_cohere_key
+    OPENAI_API_KEY=your_openai_api_key_here
+    ANTHROPIC_API_KEY=your_anthropic_api_key_here
+    COHERE_API_KEY=your_cohere_api_key_here
+    MISTRAL_API_KEY=your_mistral_api_key_here
+    LLAMA_CLOUD_API_KEY=your_llama_cloud_api_key_here
    ```
 
 5. Run the application:
